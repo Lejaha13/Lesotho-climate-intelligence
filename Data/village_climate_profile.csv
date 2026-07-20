@@ -1,0 +1,110 @@
+ID,NAME,DISTRICT,TYPE,X_COORD,Y_COORD,RASTERVALU,CLIMATE_ZONE,FROST_RISK
+1,'Makong,Butha Buthe,Village,28.24419,-28.70883,1654,Valley,Low
+6,Ha Mothetsa,Butha Buthe,Village,28.25229,-28.73063,1690,Valley,Low
+7,Ha Majara,Butha Buthe,Village,28.25818,-28.73672,1674,Valley,Low
+8,Maratlaneng,Butha Buthe,Village,28.26731,-28.71352,1617,Valley,Low
+9,Morifi,Butha Buthe,Village,28.27111,-28.72854,1686,Valley,Low
+10,Likhahleng,Butha Buthe,Village,28.30952,-28.70325,1648,Valley,Low
+11,Ha Makuini,Butha Buthe,Village,28.32663,-28.72341,1630,Valley,Low
+12,Ha  Tebetebe,Butha Buthe,Village,28.29602,-28.73729,1668,Valley,Low
+13,Ha Talimo,Butha Buthe,Village,28.32454,-28.74432,1730,Valley,Low
+14,Moaloseng,Butha Buthe,Village,28.35382,-28.73424,1743,Valley,Low
+15,Ha Nqabeni,Butha Buthe,Village,28.26845,-28.7506,1712,Valley,Low
+16,Ha Rasekila,Butha Buthe,Village,28.36865,-28.7236,1697,Valley,Low
+17,Ha Tabolane,Butha Buthe,Village,28.37113,-28.73672,1777,Valley,Low
+18,Ha Marakabei,Butha Buthe,Village,28.35553,-28.71181,1659,Valley,Low
+19,Qalo,Butha Buthe,Town,28.3405,-28.70544,1675,Valley,Low
+20,Liphakoeng,Butha Buthe,Village,28.37873,-28.69584,1775,Valley,Low
+21,Boiketlo,Butha Buthe,Village,28.39546,-28.7466,1747,Valley,Low
+22,Setlakalleng,Butha Buthe,Village,28.42988,-28.74851,1796,Valley,Low
+23,Ha Lebesa,Butha Buthe,Village,28.40136,-28.70458,1750,Valley,Low
+24,Ha Seboche,Butha Buthe,Village,28.41524,-28.69983,1729,Valley,Low
+25,Ha Tumane,Butha Buthe,Village,28.43748,-28.6907,1718,Valley,Low
+26,Ha Chaba,Butha Buthe,Village,28.43786,-28.712,1835,Foothill,Moderate
+27,Makeneng,Butha Buthe,Village,28.45612,-28.70496,1879,Foothill,Moderate
+28,Ha Paramente,Butha Buthe,Village,28.3985,-28.68044,1783,Valley,Low
+29,Thabong,Butha Buthe,Village,28.40136,-28.66713,1781,Valley,Low
+30,Qholaqhoe,Butha Buthe,Village,28.41885,-28.66484,1867,Foothill,Moderate
+31,Sheeshe,Butha Buthe,Village,28.40288,-28.65192,1698,Valley,Low
+32,Phoku(Ha Masilo),Butha Buthe,Village,28.41448,-28.631,1697,Valley,Low
+33,Ha Poosho,Butha Buthe,Village,28.45212,-28.64906,1850,Foothill,Moderate
+34,Ha Potjo,Butha Buthe,Village,28.46106,-28.64393,1906,Foothill,Moderate
+35,Makhunoane,Butha Buthe,Principal Village,28.45707,-28.62568,1736,Valley,Low
+36,Ha 'Mantlobo,Butha Buthe,Village,28.47171,-28.67625,1824,Foothill,Moderate
+37,Ha Lekula,Butha Buthe,Village,28.4949,-28.6118,1776,Valley,Low
+38,Bongalla,Butha Buthe,Village,28.49072,-28.70268,1843,Foothill,Moderate
+39,Ha Jane,Butha Buthe,Village,28.49719,-28.70934,1950,Foothill,Moderate
+40,Ha Lepatoa,Butha Buthe,Village,28.51703,-28.61797,1839,Foothill,Moderate
+41,Ha Mokotjela,Butha Buthe,Village,28.52166,-28.6119,1796,Valley,Low
+42,Mechachachaneng,Butha Buthe,Village,28.57199,-28.6164,1884,Foothill,Moderate
+43,Masetleng,Butha Buthe,Village,28.5788,-28.62097,1982,Foothill,Moderate
+44,Ha Napo,Butha Buthe,Village,28.60521,-28.61508,1946,Foothill,Moderate
+45,Seqhobong,Butha Buthe,Village,28.58611,-28.62559,2171,Highland,Moderate
+46,Saballa,Butha Buthe,Village,28.62053,-28.60178,1973,Foothill,Moderate
+47,Liqobong,Butha Buthe,Village,28.62487,-28.62173,2181,Highland,Moderate
+48,Makoeteng,Butha Buthe,Village,28.62553,-28.64005,2240,Mountain,High
+49,Likhahleng,Butha Buthe,Village,28.62698,-28.64841,2244,Mountain,High
+50,Ha 'Makhoshane,Butha Buthe,Village,28.5922,-28.65527,2166,Highland,Moderate
+51,Manoeleng,Butha Buthe,Village,28.5815,-28.64602,2093,Highland,Moderate
+52,Ha Rats'ele,Butha Buthe,Village,28.5578,-28.68678,2197,Highland,Moderate
+53,Thoteng,Butha Buthe,Village,28.54842,-28.68261,2065,Highland,Moderate
+54,Ha Makhethe,Butha Buthe,Village,28.52576,-28.67191,1951,Foothill,Moderate
+55,Kopialla,Butha Buthe,Village,28.51633,-28.66499,1883,Foothill,Moderate
+56,Ha Mothae,Butha Buthe,Village,28.64992,-28.60454,2348,Mountain,High
+57,Ha Sefako,Butha Buthe,Village,28.63313,-28.59156,1979,Foothill,Moderate
+58,Ha Nchoatla,Butha Buthe,Village,28.66503,-28.64182,2375,Mountain,High
+59,Ha Katsi,Butha Buthe,Village,28.51414,-28.705,1942,Foothill,Moderate
+60,Ha Mohau,Butha Buthe,Village,28.65899,-28.59311,2144,Highland,Moderate
+61,Mafika-Lisiu,Butha Buthe,Village,28.6551,-28.5795,1993,Foothill,Moderate
+62,Ha Sekoati,Butha Buthe,Village,28.64627,-28.58431,2109,Highland,Moderate
+63,Ha Molisana,Butha Buthe,Village,28.67778,-28.59166,2114,Highland,Moderate
+64,Ha Hlakacha,Butha Buthe,Village,28.50715,-28.74652,1924,Foothill,Moderate
+143,Majakaneng,Butha Buthe,Village,28.27672,-28.7554,1717,Valley,Low
+145,Tlokoeng,Butha Buthe,Village,28.27057,-28.78168,1756,Valley,Low
+146,Matebeleng,Butha Buthe,Village,28.28551,-28.79078,1809,Foothill,Moderate
+147,Makanyaneng,Butha Buthe,Village,28.30873,-28.78123,1803,Foothill,Moderate
+148,Ha Lepekola,Butha Buthe,Village,28.31304,-28.77501,1803,Foothill,Moderate
+149,Ha Lishobana,Butha Buthe,Village,28.31785,-28.78989,1799,Valley,Low
+150,Khilibithing,Butha Buthe,Village,28.33786,-28.79659,1816,Foothill,Moderate
+151,Ha Selomo,Butha Buthe,Village,28.34182,-28.77747,1730,Valley,Low
+152,Ha Malofo,Butha Buthe,Village,28.33969,-28.76292,1702,Valley,Low
+153,Ha Sebophe,Butha Buthe,Village,28.36124,-28.7586,1719,Valley,Low
+154,Ha Katamelo,Butha Buthe,Village,28.38173,-28.76791,1871,Foothill,Moderate
+155,Ha Mohalenyane,Butha Buthe,Village,28.37637,-28.78577,1753,Valley,Low
+156,Ha Mothunts'ane,Butha Buthe,Village,28.39673,-28.80469,1827,Foothill,Moderate
+157,Tamaseka,Butha Buthe,Village,28.41639,-28.82124,1878,Foothill,Moderate
+158,Mabaleteng,Butha Buthe,Village,28.43082,-28.83583,1933,Foothill,Moderate
+159,Makeneg,Butha Buthe,Village,28.46605,-28.8355,1991,Foothill,Moderate
+160,Lifefong,Butha Buthe,Village,28.43147,-28.79207,1876,Foothill,Moderate
+161,Boinyatso,Butha Buthe,Village,28.46605,-28.7842,1958,Foothill,Moderate
+162,'Muela,Butha Buthe,Village,28.46195,-28.77601,1861,Foothill,Moderate
+163,Moholeng,Butha Buthe,Village,28.48457,-28.79322,2025,Highland,Moderate
+164,Ha Leboea,Butha Buthe,Village,28.35526,-28.80502,1798,Valley,Low
+190,Phelantaba,Butha Buthe,Village,28.50529,-28.76214,1861,Foothill,Moderate
+191,Khamane,Butha Buthe,Village,28.53593,-28.76164,2114,Highland,Moderate
+192,Sebataolong,Butha Buthe,Village,28.52204,-28.78728,2001,Highland,Moderate
+193,Ha Ranthokoe,Butha Buthe,Village,28.61997,-28.8236,2487,Mountain,High
+194,Boalathapo,Butha Buthe,Village,28.59398,-28.86313,2442,Mountain,High
+195,Ha Moetsuoa,Butha Buthe,Village,28.57973,-28.90409,2455,Mountain,High
+196,Liqalaneng,Butha Buthe,Village,28.54804,-28.90373,2356,Mountain,High
+197,Maoela-oela,Butha Buthe,Village,28.54661,-28.93151,2311,Mountain,High
+198,Ha Lehloara,Butha Buthe,Village,28.5595,-28.94871,2240,Mountain,High
+199,Ha Lemphane,Butha Buthe,Village,28.57614,-28.95144,2409,Mountain,High
+200,Lehlakaneng,Butha Buthe,Village,28.53876,-28.98084,2420,Mountain,High
+201,Ha Tomo,Butha Buthe,Village,28.54674,-28.99725,2273,Mountain,High
+202,Liqhobong,Butha Buthe,Village,28.59871,-28.98928,2438,Mountain,High
+203,Ha Sekhobe,Butha Buthe,Village,28.59324,-28.96785,2448,Mountain,High
+204,Patuoe,Butha Buthe,Village,28.60372,-28.95965,2388,Mountain,High
+205,Thoteng,Butha Buthe,Village,28.61192,-28.9462,2287,Mountain,High
+206,Liteleng,Butha Buthe,Village,28.6297,-28.9307,2371,Mountain,High
+207,Setonong,Butha Buthe,Village,28.637,-28.90928,2389,Mountain,High
+376,Ha Rampai,Butha Buthe,Village,28.5175,-29.00771,2440,Mountain,High
+377,Ha Mahlekefane,Butha Buthe,Village,28.52577,-29.03328,2272,Mountain,High
+378,Ha Sello,Butha Buthe,Village,28.56915,-29.02376,2346,Mountain,High
+379,Ha Lesaoana,Butha Buthe,Village,28.51549,-29.07115,2284,Mountain,High
+381,Ha Lephats'oane,Butha Buthe,Village,28.60024,-29.00971,2388,Mountain,High
+382,Ha Ralinko,Butha Buthe,Village,28.59623,-29.03629,2528,Mountain,High
+383,Kao (Shishila),Butha Buthe,Village,28.63058,-29.02125,2513,Mountain,High
+2058,Butha Buthe,Butha Buthe,District Town,28.25236,-28.76806,1722,Valley,Low
+2059,Khukhune,Butha Buthe,Town,28.41477,-28.73618,1686,Valley,Low
+2078,Ha Mopeli,Butha Buthe,Principal Village,28.28557,-28.76032,1785,Valley,Low

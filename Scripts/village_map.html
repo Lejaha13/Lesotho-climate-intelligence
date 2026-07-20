@@ -1,0 +1,5333 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_00d0d8f283fcb85fa9863bb2040dc75f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_00d0d8f283fcb85fa9863bb2040dc75f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_00d0d8f283fcb85fa9863bb2040dc75f = L.map(
+                "map_00d0d8f283fcb85fa9863bb2040dc75f",
+                {
+                    center: [-28.7, 28.2],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c22b9e1cce62be110be732ff64cd168e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c22b9e1cce62be110be732ff64cd168e.addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var marker_85077ca44b30dbe3739e362ad12b94b3 = L.marker(
+                [-28.70883, 28.24419],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_42772eac35ccaf714b552adedd71a329 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8bf8926fb5ba5d6fda85891d86904c13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbd7c1e1e58b274013edeb5998c13f75 = $(`<div id="html_dbd7c1e1e58b274013edeb5998c13f75" style="width: 100.0%; height: 100.0%;"><b>Village:</b> 'Makong<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1654</div>`)[0];
+                popup_8bf8926fb5ba5d6fda85891d86904c13.setContent(html_dbd7c1e1e58b274013edeb5998c13f75);
+            
+        
+
+        marker_85077ca44b30dbe3739e362ad12b94b3.bindPopup(popup_8bf8926fb5ba5d6fda85891d86904c13)
+        ;
+
+        
+    
+    
+            marker_85077ca44b30dbe3739e362ad12b94b3.bindTooltip(
+                `<div>
+                     'Makong
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_85077ca44b30dbe3739e362ad12b94b3.setIcon(icon_42772eac35ccaf714b552adedd71a329);
+            
+    
+            var marker_bb6a461039fc4ebe8915909d30b172cb = L.marker(
+                [-28.73063, 28.25229],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_979eff517f7e6303aa16a437748026c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b1a9b83b1b99736d8dc56e044dfb756 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b78130da48f852222992d83e0003f54e = $(`<div id="html_b78130da48f852222992d83e0003f54e" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Mothetsa<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1690</div>`)[0];
+                popup_8b1a9b83b1b99736d8dc56e044dfb756.setContent(html_b78130da48f852222992d83e0003f54e);
+            
+        
+
+        marker_bb6a461039fc4ebe8915909d30b172cb.bindPopup(popup_8b1a9b83b1b99736d8dc56e044dfb756)
+        ;
+
+        
+    
+    
+            marker_bb6a461039fc4ebe8915909d30b172cb.bindTooltip(
+                `<div>
+                     Ha Mothetsa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bb6a461039fc4ebe8915909d30b172cb.setIcon(icon_979eff517f7e6303aa16a437748026c0);
+            
+    
+            var marker_35b20e59e759834d9e6098002782d870 = L.marker(
+                [-28.73672, 28.25818],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_170b36a93b0575efc621df9105242b8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ebf4db0ffcf8c1954062c366cc8a31a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8504c661ad6fa52a9e43e5b189b2f18d = $(`<div id="html_8504c661ad6fa52a9e43e5b189b2f18d" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Majara<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1674</div>`)[0];
+                popup_ebf4db0ffcf8c1954062c366cc8a31a6.setContent(html_8504c661ad6fa52a9e43e5b189b2f18d);
+            
+        
+
+        marker_35b20e59e759834d9e6098002782d870.bindPopup(popup_ebf4db0ffcf8c1954062c366cc8a31a6)
+        ;
+
+        
+    
+    
+            marker_35b20e59e759834d9e6098002782d870.bindTooltip(
+                `<div>
+                     Ha Majara
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_35b20e59e759834d9e6098002782d870.setIcon(icon_170b36a93b0575efc621df9105242b8e);
+            
+    
+            var marker_273326602bcc9d067f11d4793e4fce0c = L.marker(
+                [-28.71352, 28.26731],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_dff0261227f7b8cb088123e969f5555c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_397857de3d9ebf5011ad945b0fb98d73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_755bd5ac09ee88dabd30f9d717165843 = $(`<div id="html_755bd5ac09ee88dabd30f9d717165843" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Maratlaneng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1617</div>`)[0];
+                popup_397857de3d9ebf5011ad945b0fb98d73.setContent(html_755bd5ac09ee88dabd30f9d717165843);
+            
+        
+
+        marker_273326602bcc9d067f11d4793e4fce0c.bindPopup(popup_397857de3d9ebf5011ad945b0fb98d73)
+        ;
+
+        
+    
+    
+            marker_273326602bcc9d067f11d4793e4fce0c.bindTooltip(
+                `<div>
+                     Maratlaneng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_273326602bcc9d067f11d4793e4fce0c.setIcon(icon_dff0261227f7b8cb088123e969f5555c);
+            
+    
+            var marker_52d89cbc6a49ef9f4f3496139a4c571d = L.marker(
+                [-28.72854, 28.27111],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_e0a7347104fcb81aa27608e109f23e83 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eebb02592460445683b28b2e1a3270ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f3792c2799c81778cf7fb7ee9e43101 = $(`<div id="html_5f3792c2799c81778cf7fb7ee9e43101" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Morifi<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1686</div>`)[0];
+                popup_eebb02592460445683b28b2e1a3270ba.setContent(html_5f3792c2799c81778cf7fb7ee9e43101);
+            
+        
+
+        marker_52d89cbc6a49ef9f4f3496139a4c571d.bindPopup(popup_eebb02592460445683b28b2e1a3270ba)
+        ;
+
+        
+    
+    
+            marker_52d89cbc6a49ef9f4f3496139a4c571d.bindTooltip(
+                `<div>
+                     Morifi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_52d89cbc6a49ef9f4f3496139a4c571d.setIcon(icon_e0a7347104fcb81aa27608e109f23e83);
+            
+    
+            var marker_c23386b9871fda7c756bd1c3070d2583 = L.marker(
+                [-28.70325, 28.30952],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_d1b7466a4ab5d05da7e79c888d542992 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a6c86a05809a970079e2acfcffce2dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfcb19264f75352732de6d15df1a1658 = $(`<div id="html_dfcb19264f75352732de6d15df1a1658" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Likhahleng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1648</div>`)[0];
+                popup_2a6c86a05809a970079e2acfcffce2dd.setContent(html_dfcb19264f75352732de6d15df1a1658);
+            
+        
+
+        marker_c23386b9871fda7c756bd1c3070d2583.bindPopup(popup_2a6c86a05809a970079e2acfcffce2dd)
+        ;
+
+        
+    
+    
+            marker_c23386b9871fda7c756bd1c3070d2583.bindTooltip(
+                `<div>
+                     Likhahleng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c23386b9871fda7c756bd1c3070d2583.setIcon(icon_d1b7466a4ab5d05da7e79c888d542992);
+            
+    
+            var marker_12dd572be0a0964186debaa0c8cdccd4 = L.marker(
+                [-28.72341, 28.32663],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_9e49161558d86c15dd2d02d8f2c9e6dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_52c6cb6ad85e95c9515e2032d9e997cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a295b10a7794e784a50ce719d27c977c = $(`<div id="html_a295b10a7794e784a50ce719d27c977c" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Makuini<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1630</div>`)[0];
+                popup_52c6cb6ad85e95c9515e2032d9e997cd.setContent(html_a295b10a7794e784a50ce719d27c977c);
+            
+        
+
+        marker_12dd572be0a0964186debaa0c8cdccd4.bindPopup(popup_52c6cb6ad85e95c9515e2032d9e997cd)
+        ;
+
+        
+    
+    
+            marker_12dd572be0a0964186debaa0c8cdccd4.bindTooltip(
+                `<div>
+                     Ha Makuini
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_12dd572be0a0964186debaa0c8cdccd4.setIcon(icon_9e49161558d86c15dd2d02d8f2c9e6dc);
+            
+    
+            var marker_0571cea99d81ac6db88f826a27b1fa98 = L.marker(
+                [-28.73729, 28.29602],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_e1944b8c48b147094342726958d297bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7d219c2033b7fddf60ec5e6b894bac62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66c5fd43cf70860f36f4cd8931d7f49a = $(`<div id="html_66c5fd43cf70860f36f4cd8931d7f49a" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha  Tebetebe<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1668</div>`)[0];
+                popup_7d219c2033b7fddf60ec5e6b894bac62.setContent(html_66c5fd43cf70860f36f4cd8931d7f49a);
+            
+        
+
+        marker_0571cea99d81ac6db88f826a27b1fa98.bindPopup(popup_7d219c2033b7fddf60ec5e6b894bac62)
+        ;
+
+        
+    
+    
+            marker_0571cea99d81ac6db88f826a27b1fa98.bindTooltip(
+                `<div>
+                     Ha  Tebetebe
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0571cea99d81ac6db88f826a27b1fa98.setIcon(icon_e1944b8c48b147094342726958d297bc);
+            
+    
+            var marker_4af42009c200c0cffacef58dc0790a63 = L.marker(
+                [-28.74432, 28.32454],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_11e6672d250731d68b32430eea4793d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bfa8969c228f5da299c729e33e4a67d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_134169f99c99274f7709e4a8c30d8aa3 = $(`<div id="html_134169f99c99274f7709e4a8c30d8aa3" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Talimo<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1730</div>`)[0];
+                popup_bfa8969c228f5da299c729e33e4a67d7.setContent(html_134169f99c99274f7709e4a8c30d8aa3);
+            
+        
+
+        marker_4af42009c200c0cffacef58dc0790a63.bindPopup(popup_bfa8969c228f5da299c729e33e4a67d7)
+        ;
+
+        
+    
+    
+            marker_4af42009c200c0cffacef58dc0790a63.bindTooltip(
+                `<div>
+                     Ha Talimo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4af42009c200c0cffacef58dc0790a63.setIcon(icon_11e6672d250731d68b32430eea4793d5);
+            
+    
+            var marker_b895ec7716c04ae2f24787610e0845ed = L.marker(
+                [-28.73424, 28.35382],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_d646b90c34b125695caed58635ca54e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e82d1476f427edca79a1c2a8afd1c965 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e27b441e62ea0599e64e9c8a50eaa33 = $(`<div id="html_4e27b441e62ea0599e64e9c8a50eaa33" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Moaloseng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1743</div>`)[0];
+                popup_e82d1476f427edca79a1c2a8afd1c965.setContent(html_4e27b441e62ea0599e64e9c8a50eaa33);
+            
+        
+
+        marker_b895ec7716c04ae2f24787610e0845ed.bindPopup(popup_e82d1476f427edca79a1c2a8afd1c965)
+        ;
+
+        
+    
+    
+            marker_b895ec7716c04ae2f24787610e0845ed.bindTooltip(
+                `<div>
+                     Moaloseng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b895ec7716c04ae2f24787610e0845ed.setIcon(icon_d646b90c34b125695caed58635ca54e8);
+            
+    
+            var marker_7ce4c41aab9d312c9aae3348f41bd03b = L.marker(
+                [-28.7506, 28.26845],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_90b9d0dbd2b14a2eae2835e4d8caa447 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a4dfa1847acbbb51de538bec74555f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa5e24795eecdf8250935aee9d029e35 = $(`<div id="html_aa5e24795eecdf8250935aee9d029e35" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Nqabeni<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1712</div>`)[0];
+                popup_0a4dfa1847acbbb51de538bec74555f2.setContent(html_aa5e24795eecdf8250935aee9d029e35);
+            
+        
+
+        marker_7ce4c41aab9d312c9aae3348f41bd03b.bindPopup(popup_0a4dfa1847acbbb51de538bec74555f2)
+        ;
+
+        
+    
+    
+            marker_7ce4c41aab9d312c9aae3348f41bd03b.bindTooltip(
+                `<div>
+                     Ha Nqabeni
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7ce4c41aab9d312c9aae3348f41bd03b.setIcon(icon_90b9d0dbd2b14a2eae2835e4d8caa447);
+            
+    
+            var marker_506dec03497bd99bb4e723fb364d46ab = L.marker(
+                [-28.7236, 28.36865],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_fb4849bd2c298401c189579d4383f9f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4691dfafe6d4b16d92cffa52092d94d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_debf6d435c8a6b57ecfbba7045612486 = $(`<div id="html_debf6d435c8a6b57ecfbba7045612486" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Rasekila<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1697</div>`)[0];
+                popup_4691dfafe6d4b16d92cffa52092d94d0.setContent(html_debf6d435c8a6b57ecfbba7045612486);
+            
+        
+
+        marker_506dec03497bd99bb4e723fb364d46ab.bindPopup(popup_4691dfafe6d4b16d92cffa52092d94d0)
+        ;
+
+        
+    
+    
+            marker_506dec03497bd99bb4e723fb364d46ab.bindTooltip(
+                `<div>
+                     Ha Rasekila
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_506dec03497bd99bb4e723fb364d46ab.setIcon(icon_fb4849bd2c298401c189579d4383f9f0);
+            
+    
+            var marker_6316e9f5d8d910251318e7e6670f3b41 = L.marker(
+                [-28.73672, 28.37113],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_75847ca6873888f0bfb770feef74209e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0aa6430e114b2ed894120b08e0378c47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd6edf4a572e2581c59c34de418ec7d5 = $(`<div id="html_bd6edf4a572e2581c59c34de418ec7d5" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Tabolane<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1777</div>`)[0];
+                popup_0aa6430e114b2ed894120b08e0378c47.setContent(html_bd6edf4a572e2581c59c34de418ec7d5);
+            
+        
+
+        marker_6316e9f5d8d910251318e7e6670f3b41.bindPopup(popup_0aa6430e114b2ed894120b08e0378c47)
+        ;
+
+        
+    
+    
+            marker_6316e9f5d8d910251318e7e6670f3b41.bindTooltip(
+                `<div>
+                     Ha Tabolane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6316e9f5d8d910251318e7e6670f3b41.setIcon(icon_75847ca6873888f0bfb770feef74209e);
+            
+    
+            var marker_5783c6d96eb3ba03e40687e792f9325b = L.marker(
+                [-28.71181, 28.35553],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_5746621c519b7295f9c7fbf0d3550f32 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_88a2e744a75c617e4706ca47fd69f229 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35ab919166080b05b67044f2fdc2e5a5 = $(`<div id="html_35ab919166080b05b67044f2fdc2e5a5" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Marakabei<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1659</div>`)[0];
+                popup_88a2e744a75c617e4706ca47fd69f229.setContent(html_35ab919166080b05b67044f2fdc2e5a5);
+            
+        
+
+        marker_5783c6d96eb3ba03e40687e792f9325b.bindPopup(popup_88a2e744a75c617e4706ca47fd69f229)
+        ;
+
+        
+    
+    
+            marker_5783c6d96eb3ba03e40687e792f9325b.bindTooltip(
+                `<div>
+                     Ha Marakabei
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5783c6d96eb3ba03e40687e792f9325b.setIcon(icon_5746621c519b7295f9c7fbf0d3550f32);
+            
+    
+            var marker_cc9b7ed23ea8c55a4073ced6059faabb = L.marker(
+                [-28.70544, 28.3405],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_98021dfe5640996609bb1cae7b4f2823 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3b0b8733ea0edf540542da541865ed92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e29184d90c6d4b3266c5f4627f2f89e = $(`<div id="html_5e29184d90c6d4b3266c5f4627f2f89e" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Qalo<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1675</div>`)[0];
+                popup_3b0b8733ea0edf540542da541865ed92.setContent(html_5e29184d90c6d4b3266c5f4627f2f89e);
+            
+        
+
+        marker_cc9b7ed23ea8c55a4073ced6059faabb.bindPopup(popup_3b0b8733ea0edf540542da541865ed92)
+        ;
+
+        
+    
+    
+            marker_cc9b7ed23ea8c55a4073ced6059faabb.bindTooltip(
+                `<div>
+                     Qalo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cc9b7ed23ea8c55a4073ced6059faabb.setIcon(icon_98021dfe5640996609bb1cae7b4f2823);
+            
+    
+            var marker_2f5c74a48e696d742b41aee9a8db6777 = L.marker(
+                [-28.69584, 28.37873],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_2b2d4c0ace4aad1b9054b452e630a136 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b7a239794b24e51cc8d57dab4621fe57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbc38c05ae67644a8739564cf8cbd148 = $(`<div id="html_bbc38c05ae67644a8739564cf8cbd148" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Liphakoeng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1775</div>`)[0];
+                popup_b7a239794b24e51cc8d57dab4621fe57.setContent(html_bbc38c05ae67644a8739564cf8cbd148);
+            
+        
+
+        marker_2f5c74a48e696d742b41aee9a8db6777.bindPopup(popup_b7a239794b24e51cc8d57dab4621fe57)
+        ;
+
+        
+    
+    
+            marker_2f5c74a48e696d742b41aee9a8db6777.bindTooltip(
+                `<div>
+                     Liphakoeng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2f5c74a48e696d742b41aee9a8db6777.setIcon(icon_2b2d4c0ace4aad1b9054b452e630a136);
+            
+    
+            var marker_ee0ca774c43106ab5bb0fba0a1d1cde4 = L.marker(
+                [-28.7466, 28.39546],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_f4fb0eb332cfb20da7f492156b585871 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f93b6f599871d34f5a5f86e7a445b9c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad7e90a3cbcde7072731cd9bedf08d06 = $(`<div id="html_ad7e90a3cbcde7072731cd9bedf08d06" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Boiketlo<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1747</div>`)[0];
+                popup_f93b6f599871d34f5a5f86e7a445b9c9.setContent(html_ad7e90a3cbcde7072731cd9bedf08d06);
+            
+        
+
+        marker_ee0ca774c43106ab5bb0fba0a1d1cde4.bindPopup(popup_f93b6f599871d34f5a5f86e7a445b9c9)
+        ;
+
+        
+    
+    
+            marker_ee0ca774c43106ab5bb0fba0a1d1cde4.bindTooltip(
+                `<div>
+                     Boiketlo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ee0ca774c43106ab5bb0fba0a1d1cde4.setIcon(icon_f4fb0eb332cfb20da7f492156b585871);
+            
+    
+            var marker_719a2b2ce27096fd755631459778a2cb = L.marker(
+                [-28.74851, 28.42988],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_9db0d95037f94d73bfc7b50adb86c074 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_35691f9614ed0ae639857f5d6f35f98b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f5015e1326dfd2d781d059e7de6f92c = $(`<div id="html_9f5015e1326dfd2d781d059e7de6f92c" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Setlakalleng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1796</div>`)[0];
+                popup_35691f9614ed0ae639857f5d6f35f98b.setContent(html_9f5015e1326dfd2d781d059e7de6f92c);
+            
+        
+
+        marker_719a2b2ce27096fd755631459778a2cb.bindPopup(popup_35691f9614ed0ae639857f5d6f35f98b)
+        ;
+
+        
+    
+    
+            marker_719a2b2ce27096fd755631459778a2cb.bindTooltip(
+                `<div>
+                     Setlakalleng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_719a2b2ce27096fd755631459778a2cb.setIcon(icon_9db0d95037f94d73bfc7b50adb86c074);
+            
+    
+            var marker_b2dff706c8eea4f6f8df9b7a90cf7f64 = L.marker(
+                [-28.70458, 28.40136],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_30bbd22788f90f6114921d191fe28bae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47fb678637e990070ecc445d51adcc02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd01b5f8ec32f2b516e1033f0c7bd6f6 = $(`<div id="html_dd01b5f8ec32f2b516e1033f0c7bd6f6" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Lebesa<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1750</div>`)[0];
+                popup_47fb678637e990070ecc445d51adcc02.setContent(html_dd01b5f8ec32f2b516e1033f0c7bd6f6);
+            
+        
+
+        marker_b2dff706c8eea4f6f8df9b7a90cf7f64.bindPopup(popup_47fb678637e990070ecc445d51adcc02)
+        ;
+
+        
+    
+    
+            marker_b2dff706c8eea4f6f8df9b7a90cf7f64.bindTooltip(
+                `<div>
+                     Ha Lebesa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b2dff706c8eea4f6f8df9b7a90cf7f64.setIcon(icon_30bbd22788f90f6114921d191fe28bae);
+            
+    
+            var marker_9b464e2d8992f0f4b3a24211c7525e13 = L.marker(
+                [-28.69983, 28.41524],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_f9da697a939cfefcc2b74e52b9897b19 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4da2e4f21320058d4d4fb472744105c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8652e018d38c086cf549325036facec = $(`<div id="html_f8652e018d38c086cf549325036facec" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Seboche<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1729</div>`)[0];
+                popup_4da2e4f21320058d4d4fb472744105c8.setContent(html_f8652e018d38c086cf549325036facec);
+            
+        
+
+        marker_9b464e2d8992f0f4b3a24211c7525e13.bindPopup(popup_4da2e4f21320058d4d4fb472744105c8)
+        ;
+
+        
+    
+    
+            marker_9b464e2d8992f0f4b3a24211c7525e13.bindTooltip(
+                `<div>
+                     Ha Seboche
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9b464e2d8992f0f4b3a24211c7525e13.setIcon(icon_f9da697a939cfefcc2b74e52b9897b19);
+            
+    
+            var marker_a57b881a3a462aa81dad4894e144071a = L.marker(
+                [-28.6907, 28.43748],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_2893f9649206cf22abba15d27c9dbaf1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d16d4d761b5df10fd5a41aaedc32e1ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30762d8bf19d4c6c005cf890a872f401 = $(`<div id="html_30762d8bf19d4c6c005cf890a872f401" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Tumane<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1718</div>`)[0];
+                popup_d16d4d761b5df10fd5a41aaedc32e1ab.setContent(html_30762d8bf19d4c6c005cf890a872f401);
+            
+        
+
+        marker_a57b881a3a462aa81dad4894e144071a.bindPopup(popup_d16d4d761b5df10fd5a41aaedc32e1ab)
+        ;
+
+        
+    
+    
+            marker_a57b881a3a462aa81dad4894e144071a.bindTooltip(
+                `<div>
+                     Ha Tumane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a57b881a3a462aa81dad4894e144071a.setIcon(icon_2893f9649206cf22abba15d27c9dbaf1);
+            
+    
+            var marker_f2d3daf007dd7279b6d82a0fae0e4139 = L.marker(
+                [-28.712, 28.43786],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_11326878d49b54aa6d369f6e1698285c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c09a18cbb4046abbd273744eac26d211 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16ee9f4db713b36e31c082fedb5e7750 = $(`<div id="html_16ee9f4db713b36e31c082fedb5e7750" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Chaba<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1835</div>`)[0];
+                popup_c09a18cbb4046abbd273744eac26d211.setContent(html_16ee9f4db713b36e31c082fedb5e7750);
+            
+        
+
+        marker_f2d3daf007dd7279b6d82a0fae0e4139.bindPopup(popup_c09a18cbb4046abbd273744eac26d211)
+        ;
+
+        
+    
+    
+            marker_f2d3daf007dd7279b6d82a0fae0e4139.bindTooltip(
+                `<div>
+                     Ha Chaba
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f2d3daf007dd7279b6d82a0fae0e4139.setIcon(icon_11326878d49b54aa6d369f6e1698285c);
+            
+    
+            var marker_500642b332ec75fd3c6a08455b14eb93 = L.marker(
+                [-28.70496, 28.45612],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_36d782b4b031b0b187aa2f3235b5d176 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a9c67c8a2ea2597147933562be0c8be7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cc1b979126c979002d76d31031263c5 = $(`<div id="html_5cc1b979126c979002d76d31031263c5" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Makeneng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1879</div>`)[0];
+                popup_a9c67c8a2ea2597147933562be0c8be7.setContent(html_5cc1b979126c979002d76d31031263c5);
+            
+        
+
+        marker_500642b332ec75fd3c6a08455b14eb93.bindPopup(popup_a9c67c8a2ea2597147933562be0c8be7)
+        ;
+
+        
+    
+    
+            marker_500642b332ec75fd3c6a08455b14eb93.bindTooltip(
+                `<div>
+                     Makeneng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_500642b332ec75fd3c6a08455b14eb93.setIcon(icon_36d782b4b031b0b187aa2f3235b5d176);
+            
+    
+            var marker_98e17c4b08aecd8d91c2f342c84db37b = L.marker(
+                [-28.68044, 28.3985],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_bb2c3e7c12b06ab4493ac3a8e4e438f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c98c29730f3a35c6ff8026e2a958946f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7917b3784f2d1e5a18a59dcf4074f50 = $(`<div id="html_f7917b3784f2d1e5a18a59dcf4074f50" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Paramente<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1783</div>`)[0];
+                popup_c98c29730f3a35c6ff8026e2a958946f.setContent(html_f7917b3784f2d1e5a18a59dcf4074f50);
+            
+        
+
+        marker_98e17c4b08aecd8d91c2f342c84db37b.bindPopup(popup_c98c29730f3a35c6ff8026e2a958946f)
+        ;
+
+        
+    
+    
+            marker_98e17c4b08aecd8d91c2f342c84db37b.bindTooltip(
+                `<div>
+                     Ha Paramente
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_98e17c4b08aecd8d91c2f342c84db37b.setIcon(icon_bb2c3e7c12b06ab4493ac3a8e4e438f8);
+            
+    
+            var marker_0918c5c08b90e9d5519cab3a40c3f168 = L.marker(
+                [-28.66713, 28.40136],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_5fe55c52aa4986c6f9f1f598b611a489 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f85ee1bbfb3e76cfeca865060615f613 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e7f3cef3e624347ff6f7b6e25094307 = $(`<div id="html_3e7f3cef3e624347ff6f7b6e25094307" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Thabong<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1781</div>`)[0];
+                popup_f85ee1bbfb3e76cfeca865060615f613.setContent(html_3e7f3cef3e624347ff6f7b6e25094307);
+            
+        
+
+        marker_0918c5c08b90e9d5519cab3a40c3f168.bindPopup(popup_f85ee1bbfb3e76cfeca865060615f613)
+        ;
+
+        
+    
+    
+            marker_0918c5c08b90e9d5519cab3a40c3f168.bindTooltip(
+                `<div>
+                     Thabong
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0918c5c08b90e9d5519cab3a40c3f168.setIcon(icon_5fe55c52aa4986c6f9f1f598b611a489);
+            
+    
+            var marker_34fe6781913663c1271dba0b00f8c35e = L.marker(
+                [-28.66484, 28.41885],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_dc99d9f524e0f859faea29760bbc7e80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f8f13410672c4086aa11d029837d1509 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_724de06316e200c9f6b4186e9a5704c0 = $(`<div id="html_724de06316e200c9f6b4186e9a5704c0" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Qholaqhoe<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1867</div>`)[0];
+                popup_f8f13410672c4086aa11d029837d1509.setContent(html_724de06316e200c9f6b4186e9a5704c0);
+            
+        
+
+        marker_34fe6781913663c1271dba0b00f8c35e.bindPopup(popup_f8f13410672c4086aa11d029837d1509)
+        ;
+
+        
+    
+    
+            marker_34fe6781913663c1271dba0b00f8c35e.bindTooltip(
+                `<div>
+                     Qholaqhoe
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_34fe6781913663c1271dba0b00f8c35e.setIcon(icon_dc99d9f524e0f859faea29760bbc7e80);
+            
+    
+            var marker_b2a62a40773ec0b5fd65d417930df1ec = L.marker(
+                [-28.65192, 28.40288],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_b463095c676d6969192e59e64b2e21a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_655ea3b111b871ce88a02f6197239dff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d7944dc14993c56963a47dff5c08623 = $(`<div id="html_1d7944dc14993c56963a47dff5c08623" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Sheeshe<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1698</div>`)[0];
+                popup_655ea3b111b871ce88a02f6197239dff.setContent(html_1d7944dc14993c56963a47dff5c08623);
+            
+        
+
+        marker_b2a62a40773ec0b5fd65d417930df1ec.bindPopup(popup_655ea3b111b871ce88a02f6197239dff)
+        ;
+
+        
+    
+    
+            marker_b2a62a40773ec0b5fd65d417930df1ec.bindTooltip(
+                `<div>
+                     Sheeshe
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b2a62a40773ec0b5fd65d417930df1ec.setIcon(icon_b463095c676d6969192e59e64b2e21a5);
+            
+    
+            var marker_6af3c604e522a765a2b84ef98c65315f = L.marker(
+                [-28.631, 28.41448],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_01370434af0485cae7f8f33aaeec0248 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c209e442a9d77f8c4c9997d4a76baf04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86c0a994ae3c2ce05daad6705a977769 = $(`<div id="html_86c0a994ae3c2ce05daad6705a977769" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Phoku(Ha Masilo)<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1697</div>`)[0];
+                popup_c209e442a9d77f8c4c9997d4a76baf04.setContent(html_86c0a994ae3c2ce05daad6705a977769);
+            
+        
+
+        marker_6af3c604e522a765a2b84ef98c65315f.bindPopup(popup_c209e442a9d77f8c4c9997d4a76baf04)
+        ;
+
+        
+    
+    
+            marker_6af3c604e522a765a2b84ef98c65315f.bindTooltip(
+                `<div>
+                     Phoku(Ha Masilo)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6af3c604e522a765a2b84ef98c65315f.setIcon(icon_01370434af0485cae7f8f33aaeec0248);
+            
+    
+            var marker_123e6e2f55cd0a6fba8aa05fe558de42 = L.marker(
+                [-28.64906, 28.45212],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_666b13670fb6e907bc3839cb9245b79b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_591cc99d7ebf7642e51db5a9a8aa4592 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a144fe586de6efde710c19d24b81fe6 = $(`<div id="html_7a144fe586de6efde710c19d24b81fe6" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Poosho<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1850</div>`)[0];
+                popup_591cc99d7ebf7642e51db5a9a8aa4592.setContent(html_7a144fe586de6efde710c19d24b81fe6);
+            
+        
+
+        marker_123e6e2f55cd0a6fba8aa05fe558de42.bindPopup(popup_591cc99d7ebf7642e51db5a9a8aa4592)
+        ;
+
+        
+    
+    
+            marker_123e6e2f55cd0a6fba8aa05fe558de42.bindTooltip(
+                `<div>
+                     Ha Poosho
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_123e6e2f55cd0a6fba8aa05fe558de42.setIcon(icon_666b13670fb6e907bc3839cb9245b79b);
+            
+    
+            var marker_e0f9b507add0dcb064143a27e2703d03 = L.marker(
+                [-28.64393, 28.46106],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_4a5451e017bb19df6f70f97f7cf47051 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3e9aa9cd2d09ba0719578af051860bd2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf163d8f8a0d64b2790f60d47f2b3e11 = $(`<div id="html_cf163d8f8a0d64b2790f60d47f2b3e11" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Potjo<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1906</div>`)[0];
+                popup_3e9aa9cd2d09ba0719578af051860bd2.setContent(html_cf163d8f8a0d64b2790f60d47f2b3e11);
+            
+        
+
+        marker_e0f9b507add0dcb064143a27e2703d03.bindPopup(popup_3e9aa9cd2d09ba0719578af051860bd2)
+        ;
+
+        
+    
+    
+            marker_e0f9b507add0dcb064143a27e2703d03.bindTooltip(
+                `<div>
+                     Ha Potjo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e0f9b507add0dcb064143a27e2703d03.setIcon(icon_4a5451e017bb19df6f70f97f7cf47051);
+            
+    
+            var marker_2cac2b16f29c5aa26dfabbdc291c85ad = L.marker(
+                [-28.62568, 28.45707],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_1f4e65a6657f4c24dcd2b82e17c63b37 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c55fef4f56114cc07a2d956fc9aff0e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d825a69b46608c39728a3b4f70c921c = $(`<div id="html_0d825a69b46608c39728a3b4f70c921c" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Makhunoane<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1736</div>`)[0];
+                popup_c55fef4f56114cc07a2d956fc9aff0e9.setContent(html_0d825a69b46608c39728a3b4f70c921c);
+            
+        
+
+        marker_2cac2b16f29c5aa26dfabbdc291c85ad.bindPopup(popup_c55fef4f56114cc07a2d956fc9aff0e9)
+        ;
+
+        
+    
+    
+            marker_2cac2b16f29c5aa26dfabbdc291c85ad.bindTooltip(
+                `<div>
+                     Makhunoane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2cac2b16f29c5aa26dfabbdc291c85ad.setIcon(icon_1f4e65a6657f4c24dcd2b82e17c63b37);
+            
+    
+            var marker_3b80474c7c98bec00616f4e884df7d73 = L.marker(
+                [-28.67625, 28.47171],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_d41f32dc33e84d10ac6de49f0cf6ceb8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83e562a6e60d4d9af290f3cd8492b970 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a6f7d7640cc2ceacd7a9a08f59197b2 = $(`<div id="html_7a6f7d7640cc2ceacd7a9a08f59197b2" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha 'Mantlobo<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1824</div>`)[0];
+                popup_83e562a6e60d4d9af290f3cd8492b970.setContent(html_7a6f7d7640cc2ceacd7a9a08f59197b2);
+            
+        
+
+        marker_3b80474c7c98bec00616f4e884df7d73.bindPopup(popup_83e562a6e60d4d9af290f3cd8492b970)
+        ;
+
+        
+    
+    
+            marker_3b80474c7c98bec00616f4e884df7d73.bindTooltip(
+                `<div>
+                     Ha 'Mantlobo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3b80474c7c98bec00616f4e884df7d73.setIcon(icon_d41f32dc33e84d10ac6de49f0cf6ceb8);
+            
+    
+            var marker_b60d86c084e31b95e0d3fed3be63ca03 = L.marker(
+                [-28.6118, 28.4949],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_1e5e5f4055a37db0171e0907038275ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4299920f67deee1c8d2fbb1d645993d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de0c4b0740201e591ff576e30427ac44 = $(`<div id="html_de0c4b0740201e591ff576e30427ac44" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Lekula<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1776</div>`)[0];
+                popup_a4299920f67deee1c8d2fbb1d645993d.setContent(html_de0c4b0740201e591ff576e30427ac44);
+            
+        
+
+        marker_b60d86c084e31b95e0d3fed3be63ca03.bindPopup(popup_a4299920f67deee1c8d2fbb1d645993d)
+        ;
+
+        
+    
+    
+            marker_b60d86c084e31b95e0d3fed3be63ca03.bindTooltip(
+                `<div>
+                     Ha Lekula
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b60d86c084e31b95e0d3fed3be63ca03.setIcon(icon_1e5e5f4055a37db0171e0907038275ec);
+            
+    
+            var marker_80126f52d19ed05e0c1c090da509a7fe = L.marker(
+                [-28.70268, 28.49072],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_8edebbee100ed6368b97275dd2db5358 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab98e6a5f24923e1ff87bd57df0ea1f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cee7ee4a8630f9b28a80717710fb3f8 = $(`<div id="html_5cee7ee4a8630f9b28a80717710fb3f8" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Bongalla<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1843</div>`)[0];
+                popup_ab98e6a5f24923e1ff87bd57df0ea1f4.setContent(html_5cee7ee4a8630f9b28a80717710fb3f8);
+            
+        
+
+        marker_80126f52d19ed05e0c1c090da509a7fe.bindPopup(popup_ab98e6a5f24923e1ff87bd57df0ea1f4)
+        ;
+
+        
+    
+    
+            marker_80126f52d19ed05e0c1c090da509a7fe.bindTooltip(
+                `<div>
+                     Bongalla
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_80126f52d19ed05e0c1c090da509a7fe.setIcon(icon_8edebbee100ed6368b97275dd2db5358);
+            
+    
+            var marker_3e09d2160883db4c0ee1f281cadc403f = L.marker(
+                [-28.70934, 28.49719],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_c112efe8653a4e740afa943c6f2f70cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0dca9c161599c0df39048bc0375ecfec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b9023e9927c59272c866ea89d3e7f0b = $(`<div id="html_4b9023e9927c59272c866ea89d3e7f0b" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Jane<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1950</div>`)[0];
+                popup_0dca9c161599c0df39048bc0375ecfec.setContent(html_4b9023e9927c59272c866ea89d3e7f0b);
+            
+        
+
+        marker_3e09d2160883db4c0ee1f281cadc403f.bindPopup(popup_0dca9c161599c0df39048bc0375ecfec)
+        ;
+
+        
+    
+    
+            marker_3e09d2160883db4c0ee1f281cadc403f.bindTooltip(
+                `<div>
+                     Ha Jane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3e09d2160883db4c0ee1f281cadc403f.setIcon(icon_c112efe8653a4e740afa943c6f2f70cc);
+            
+    
+            var marker_b2dbbb09a1283a47d4696b497f4ce94c = L.marker(
+                [-28.61797, 28.51703],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_d2f2f33f1f8b4d44371b6dd3ca2fe023 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_98cc35481bd991fac33e054446d139e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8f627f1017c4efcebee554c6a844f25 = $(`<div id="html_f8f627f1017c4efcebee554c6a844f25" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Lepatoa<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1839</div>`)[0];
+                popup_98cc35481bd991fac33e054446d139e1.setContent(html_f8f627f1017c4efcebee554c6a844f25);
+            
+        
+
+        marker_b2dbbb09a1283a47d4696b497f4ce94c.bindPopup(popup_98cc35481bd991fac33e054446d139e1)
+        ;
+
+        
+    
+    
+            marker_b2dbbb09a1283a47d4696b497f4ce94c.bindTooltip(
+                `<div>
+                     Ha Lepatoa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b2dbbb09a1283a47d4696b497f4ce94c.setIcon(icon_d2f2f33f1f8b4d44371b6dd3ca2fe023);
+            
+    
+            var marker_74d30b94048b82dd9400149b2241f55e = L.marker(
+                [-28.6119, 28.52166],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_8d558a151684ae9c5cdd7efb2219419b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2c8a5743e278a601076ad4246408498c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f95bdf042a436b8f917ecf735bad26d = $(`<div id="html_9f95bdf042a436b8f917ecf735bad26d" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Mokotjela<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1796</div>`)[0];
+                popup_2c8a5743e278a601076ad4246408498c.setContent(html_9f95bdf042a436b8f917ecf735bad26d);
+            
+        
+
+        marker_74d30b94048b82dd9400149b2241f55e.bindPopup(popup_2c8a5743e278a601076ad4246408498c)
+        ;
+
+        
+    
+    
+            marker_74d30b94048b82dd9400149b2241f55e.bindTooltip(
+                `<div>
+                     Ha Mokotjela
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_74d30b94048b82dd9400149b2241f55e.setIcon(icon_8d558a151684ae9c5cdd7efb2219419b);
+            
+    
+            var marker_61abb24a910622ac3222e9bc786137c9 = L.marker(
+                [-28.6164, 28.57199],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_76429a01cca5ad4796c7264b512db918 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2c3f1343b054ea5981051a3e3199d65f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c77b4f36f7458f08528eac6ae1d4254 = $(`<div id="html_3c77b4f36f7458f08528eac6ae1d4254" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Mechachachaneng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1884</div>`)[0];
+                popup_2c3f1343b054ea5981051a3e3199d65f.setContent(html_3c77b4f36f7458f08528eac6ae1d4254);
+            
+        
+
+        marker_61abb24a910622ac3222e9bc786137c9.bindPopup(popup_2c3f1343b054ea5981051a3e3199d65f)
+        ;
+
+        
+    
+    
+            marker_61abb24a910622ac3222e9bc786137c9.bindTooltip(
+                `<div>
+                     Mechachachaneng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_61abb24a910622ac3222e9bc786137c9.setIcon(icon_76429a01cca5ad4796c7264b512db918);
+            
+    
+            var marker_cf04437e561883198723b99e41ccb251 = L.marker(
+                [-28.62097, 28.5788],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_5d14311456300f4c4ca36f2db318b4ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6807d852eb84be800d1ac52635a73cb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c04c98c2805f2b21313e7716bdf650a = $(`<div id="html_4c04c98c2805f2b21313e7716bdf650a" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Masetleng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1982</div>`)[0];
+                popup_6807d852eb84be800d1ac52635a73cb7.setContent(html_4c04c98c2805f2b21313e7716bdf650a);
+            
+        
+
+        marker_cf04437e561883198723b99e41ccb251.bindPopup(popup_6807d852eb84be800d1ac52635a73cb7)
+        ;
+
+        
+    
+    
+            marker_cf04437e561883198723b99e41ccb251.bindTooltip(
+                `<div>
+                     Masetleng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cf04437e561883198723b99e41ccb251.setIcon(icon_5d14311456300f4c4ca36f2db318b4ee);
+            
+    
+            var marker_b48e8cd33d403cafb910043dafef8652 = L.marker(
+                [-28.61508, 28.60521],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_09e67343a8e82f8056aaa011373c6bd6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b7076a8c15c9c58beed993b7aa9a4e3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0bd349313d4f36853abcaf2aa311c9a = $(`<div id="html_a0bd349313d4f36853abcaf2aa311c9a" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Napo<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1946</div>`)[0];
+                popup_b7076a8c15c9c58beed993b7aa9a4e3f.setContent(html_a0bd349313d4f36853abcaf2aa311c9a);
+            
+        
+
+        marker_b48e8cd33d403cafb910043dafef8652.bindPopup(popup_b7076a8c15c9c58beed993b7aa9a4e3f)
+        ;
+
+        
+    
+    
+            marker_b48e8cd33d403cafb910043dafef8652.bindTooltip(
+                `<div>
+                     Ha Napo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b48e8cd33d403cafb910043dafef8652.setIcon(icon_09e67343a8e82f8056aaa011373c6bd6);
+            
+    
+            var marker_334e9e4f37a2eecd3adfc04e2d0488e4 = L.marker(
+                [-28.62559, 28.58611],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_d3de6c030a660f729f6664fb49759d94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_06ee9e0ea79f31d6b97cebb2ef8a4e12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_859b1cef0a213c958963acff75974b90 = $(`<div id="html_859b1cef0a213c958963acff75974b90" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Seqhobong<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2171</div>`)[0];
+                popup_06ee9e0ea79f31d6b97cebb2ef8a4e12.setContent(html_859b1cef0a213c958963acff75974b90);
+            
+        
+
+        marker_334e9e4f37a2eecd3adfc04e2d0488e4.bindPopup(popup_06ee9e0ea79f31d6b97cebb2ef8a4e12)
+        ;
+
+        
+    
+    
+            marker_334e9e4f37a2eecd3adfc04e2d0488e4.bindTooltip(
+                `<div>
+                     Seqhobong
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_334e9e4f37a2eecd3adfc04e2d0488e4.setIcon(icon_d3de6c030a660f729f6664fb49759d94);
+            
+    
+            var marker_2fc8943db531de32a1fcaae6a10ca7dc = L.marker(
+                [-28.60178, 28.62053],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_615c9081cecbcd88f767c7403615a1d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_da0dac8309ffad30af4c903455f62af8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8d28310aad6f7ac358367ad9a6b7378 = $(`<div id="html_c8d28310aad6f7ac358367ad9a6b7378" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Saballa<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1973</div>`)[0];
+                popup_da0dac8309ffad30af4c903455f62af8.setContent(html_c8d28310aad6f7ac358367ad9a6b7378);
+            
+        
+
+        marker_2fc8943db531de32a1fcaae6a10ca7dc.bindPopup(popup_da0dac8309ffad30af4c903455f62af8)
+        ;
+
+        
+    
+    
+            marker_2fc8943db531de32a1fcaae6a10ca7dc.bindTooltip(
+                `<div>
+                     Saballa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2fc8943db531de32a1fcaae6a10ca7dc.setIcon(icon_615c9081cecbcd88f767c7403615a1d5);
+            
+    
+            var marker_8cf99895b5ec301cbd396c9dbd164ba3 = L.marker(
+                [-28.62173, 28.62487],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_a76fceff95f199e45beab78fcc33d1a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d09c71caf72eb372776251a11db10017 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb3a39b09313cddb31cc441b46dabfa1 = $(`<div id="html_fb3a39b09313cddb31cc441b46dabfa1" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Liqobong<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2181</div>`)[0];
+                popup_d09c71caf72eb372776251a11db10017.setContent(html_fb3a39b09313cddb31cc441b46dabfa1);
+            
+        
+
+        marker_8cf99895b5ec301cbd396c9dbd164ba3.bindPopup(popup_d09c71caf72eb372776251a11db10017)
+        ;
+
+        
+    
+    
+            marker_8cf99895b5ec301cbd396c9dbd164ba3.bindTooltip(
+                `<div>
+                     Liqobong
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8cf99895b5ec301cbd396c9dbd164ba3.setIcon(icon_a76fceff95f199e45beab78fcc33d1a3);
+            
+    
+            var marker_afe28731efa1435edb55d768a778772f = L.marker(
+                [-28.64005, 28.62553],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_f73ba877b7a7b4b95997b63af5ed1cae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_80f8650775e5dcc426ac1dce56e80388 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69f95b07c7e7d765e1f80ba3e9e9b67e = $(`<div id="html_69f95b07c7e7d765e1f80ba3e9e9b67e" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Makoeteng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2240</div>`)[0];
+                popup_80f8650775e5dcc426ac1dce56e80388.setContent(html_69f95b07c7e7d765e1f80ba3e9e9b67e);
+            
+        
+
+        marker_afe28731efa1435edb55d768a778772f.bindPopup(popup_80f8650775e5dcc426ac1dce56e80388)
+        ;
+
+        
+    
+    
+            marker_afe28731efa1435edb55d768a778772f.bindTooltip(
+                `<div>
+                     Makoeteng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_afe28731efa1435edb55d768a778772f.setIcon(icon_f73ba877b7a7b4b95997b63af5ed1cae);
+            
+    
+            var marker_0e13032d71cab8e205c7084401305548 = L.marker(
+                [-28.64841, 28.62698],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_5c920e09435e9c574304fdf6c4648035 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_89dc370508c6aac139fd675c1ca41853 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4782b5f1ef62439e1da36b33b8f28f5c = $(`<div id="html_4782b5f1ef62439e1da36b33b8f28f5c" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Likhahleng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2244</div>`)[0];
+                popup_89dc370508c6aac139fd675c1ca41853.setContent(html_4782b5f1ef62439e1da36b33b8f28f5c);
+            
+        
+
+        marker_0e13032d71cab8e205c7084401305548.bindPopup(popup_89dc370508c6aac139fd675c1ca41853)
+        ;
+
+        
+    
+    
+            marker_0e13032d71cab8e205c7084401305548.bindTooltip(
+                `<div>
+                     Likhahleng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0e13032d71cab8e205c7084401305548.setIcon(icon_5c920e09435e9c574304fdf6c4648035);
+            
+    
+            var marker_c4f49cbdb1bcfedb914f64e6b3de7f19 = L.marker(
+                [-28.65527, 28.5922],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_6e2a3114c351764101b0ddaffa7ccbb5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3997d6f68c38bc1d0d5e47d82529f7b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44c00c2e546ba7cdf875dbeb3f1b18ca = $(`<div id="html_44c00c2e546ba7cdf875dbeb3f1b18ca" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha 'Makhoshane<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2166</div>`)[0];
+                popup_3997d6f68c38bc1d0d5e47d82529f7b7.setContent(html_44c00c2e546ba7cdf875dbeb3f1b18ca);
+            
+        
+
+        marker_c4f49cbdb1bcfedb914f64e6b3de7f19.bindPopup(popup_3997d6f68c38bc1d0d5e47d82529f7b7)
+        ;
+
+        
+    
+    
+            marker_c4f49cbdb1bcfedb914f64e6b3de7f19.bindTooltip(
+                `<div>
+                     Ha 'Makhoshane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c4f49cbdb1bcfedb914f64e6b3de7f19.setIcon(icon_6e2a3114c351764101b0ddaffa7ccbb5);
+            
+    
+            var marker_6445e275b74645c4c013d12452168b11 = L.marker(
+                [-28.64602, 28.5815],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_63deb0e84c3bc03fb6fa0fc8b5c29c0c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c1ad03fcd33591aaf96879e80ff2605f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce27146c801ddc0add1370b34c4f1a34 = $(`<div id="html_ce27146c801ddc0add1370b34c4f1a34" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Manoeleng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2093</div>`)[0];
+                popup_c1ad03fcd33591aaf96879e80ff2605f.setContent(html_ce27146c801ddc0add1370b34c4f1a34);
+            
+        
+
+        marker_6445e275b74645c4c013d12452168b11.bindPopup(popup_c1ad03fcd33591aaf96879e80ff2605f)
+        ;
+
+        
+    
+    
+            marker_6445e275b74645c4c013d12452168b11.bindTooltip(
+                `<div>
+                     Manoeleng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6445e275b74645c4c013d12452168b11.setIcon(icon_63deb0e84c3bc03fb6fa0fc8b5c29c0c);
+            
+    
+            var marker_d3c9bbb3950d11ac9b4b39f70c3713c8 = L.marker(
+                [-28.68678, 28.5578],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_4823476c5e4d60a5161c25f8dd7fc198 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_861810e7e379b29db7d5d6acde912172 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93eeb2abc564b2c197b0b32ca113c24d = $(`<div id="html_93eeb2abc564b2c197b0b32ca113c24d" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Rats'ele<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2197</div>`)[0];
+                popup_861810e7e379b29db7d5d6acde912172.setContent(html_93eeb2abc564b2c197b0b32ca113c24d);
+            
+        
+
+        marker_d3c9bbb3950d11ac9b4b39f70c3713c8.bindPopup(popup_861810e7e379b29db7d5d6acde912172)
+        ;
+
+        
+    
+    
+            marker_d3c9bbb3950d11ac9b4b39f70c3713c8.bindTooltip(
+                `<div>
+                     Ha Rats'ele
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d3c9bbb3950d11ac9b4b39f70c3713c8.setIcon(icon_4823476c5e4d60a5161c25f8dd7fc198);
+            
+    
+            var marker_1553fa9edc9e38230fe10c7bdd280984 = L.marker(
+                [-28.68261, 28.54842],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_e399237cd9ae0d5b80b18aaad63b79a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_11be53f2108944c8cf0207889888ac6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f88dfafefe46aec4c7daa54de38446fd = $(`<div id="html_f88dfafefe46aec4c7daa54de38446fd" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Thoteng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2065</div>`)[0];
+                popup_11be53f2108944c8cf0207889888ac6d.setContent(html_f88dfafefe46aec4c7daa54de38446fd);
+            
+        
+
+        marker_1553fa9edc9e38230fe10c7bdd280984.bindPopup(popup_11be53f2108944c8cf0207889888ac6d)
+        ;
+
+        
+    
+    
+            marker_1553fa9edc9e38230fe10c7bdd280984.bindTooltip(
+                `<div>
+                     Thoteng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1553fa9edc9e38230fe10c7bdd280984.setIcon(icon_e399237cd9ae0d5b80b18aaad63b79a7);
+            
+    
+            var marker_896d6b51cef9fd09062fb11bcd635ebf = L.marker(
+                [-28.67191, 28.52576],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_f40d31a86c9a35fbbf7c38d0937cca14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_27e7ea4ebae2c4ca4b9863f5536d875f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0069aed61e1267da84fc05fc9cbde6e = $(`<div id="html_f0069aed61e1267da84fc05fc9cbde6e" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Makhethe<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1951</div>`)[0];
+                popup_27e7ea4ebae2c4ca4b9863f5536d875f.setContent(html_f0069aed61e1267da84fc05fc9cbde6e);
+            
+        
+
+        marker_896d6b51cef9fd09062fb11bcd635ebf.bindPopup(popup_27e7ea4ebae2c4ca4b9863f5536d875f)
+        ;
+
+        
+    
+    
+            marker_896d6b51cef9fd09062fb11bcd635ebf.bindTooltip(
+                `<div>
+                     Ha Makhethe
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_896d6b51cef9fd09062fb11bcd635ebf.setIcon(icon_f40d31a86c9a35fbbf7c38d0937cca14);
+            
+    
+            var marker_b9bb2c5edd099b697827669b35dc56f1 = L.marker(
+                [-28.66499, 28.51633],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_758a3a5b073ad57128f7e9561ba866ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f2b944af0f75763d04e1ff309591e1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cd84ac95c53e49611646b626cd4e453 = $(`<div id="html_6cd84ac95c53e49611646b626cd4e453" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Kopialla<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1883</div>`)[0];
+                popup_1f2b944af0f75763d04e1ff309591e1e.setContent(html_6cd84ac95c53e49611646b626cd4e453);
+            
+        
+
+        marker_b9bb2c5edd099b697827669b35dc56f1.bindPopup(popup_1f2b944af0f75763d04e1ff309591e1e)
+        ;
+
+        
+    
+    
+            marker_b9bb2c5edd099b697827669b35dc56f1.bindTooltip(
+                `<div>
+                     Kopialla
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b9bb2c5edd099b697827669b35dc56f1.setIcon(icon_758a3a5b073ad57128f7e9561ba866ca);
+            
+    
+            var marker_eb3463ad1ba959cd472af6a1515d900b = L.marker(
+                [-28.60454, 28.64992],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_e67f27e697fbf56232ca04069c07ec02 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b65afa9684a0670f3245734c8391ea0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc9630a64a915c78e77b682002f28230 = $(`<div id="html_cc9630a64a915c78e77b682002f28230" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Mothae<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2348</div>`)[0];
+                popup_7b65afa9684a0670f3245734c8391ea0.setContent(html_cc9630a64a915c78e77b682002f28230);
+            
+        
+
+        marker_eb3463ad1ba959cd472af6a1515d900b.bindPopup(popup_7b65afa9684a0670f3245734c8391ea0)
+        ;
+
+        
+    
+    
+            marker_eb3463ad1ba959cd472af6a1515d900b.bindTooltip(
+                `<div>
+                     Ha Mothae
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_eb3463ad1ba959cd472af6a1515d900b.setIcon(icon_e67f27e697fbf56232ca04069c07ec02);
+            
+    
+            var marker_e9ee301aa2f115365b79aa6ff4cf6841 = L.marker(
+                [-28.59156, 28.63313],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_031f318449df084b75578aae9d101526 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d52dbcd8d2f8a1b8b0015f970a6c669 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21587bf4cb475948248065b103e6bad9 = $(`<div id="html_21587bf4cb475948248065b103e6bad9" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Sefako<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1979</div>`)[0];
+                popup_6d52dbcd8d2f8a1b8b0015f970a6c669.setContent(html_21587bf4cb475948248065b103e6bad9);
+            
+        
+
+        marker_e9ee301aa2f115365b79aa6ff4cf6841.bindPopup(popup_6d52dbcd8d2f8a1b8b0015f970a6c669)
+        ;
+
+        
+    
+    
+            marker_e9ee301aa2f115365b79aa6ff4cf6841.bindTooltip(
+                `<div>
+                     Ha Sefako
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e9ee301aa2f115365b79aa6ff4cf6841.setIcon(icon_031f318449df084b75578aae9d101526);
+            
+    
+            var marker_cac3f161977ba2b332bbdc5ba3560b3e = L.marker(
+                [-28.64182, 28.66503],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_38a150543c89d8a3d27d532aaeddef66 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e3e914d30155bef62713e84d6971941 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f01eee9ab2317010c37b4ef27eea2108 = $(`<div id="html_f01eee9ab2317010c37b4ef27eea2108" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Nchoatla<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2375</div>`)[0];
+                popup_5e3e914d30155bef62713e84d6971941.setContent(html_f01eee9ab2317010c37b4ef27eea2108);
+            
+        
+
+        marker_cac3f161977ba2b332bbdc5ba3560b3e.bindPopup(popup_5e3e914d30155bef62713e84d6971941)
+        ;
+
+        
+    
+    
+            marker_cac3f161977ba2b332bbdc5ba3560b3e.bindTooltip(
+                `<div>
+                     Ha Nchoatla
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cac3f161977ba2b332bbdc5ba3560b3e.setIcon(icon_38a150543c89d8a3d27d532aaeddef66);
+            
+    
+            var marker_d33fd8ed367623e466ef26346578c903 = L.marker(
+                [-28.705, 28.51414],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_7848e4c885f6cb9bf8a173afc7fa62c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b504a15f14e97605a5899911aebab27a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1560671188622f6fcdab8a633b3f11cf = $(`<div id="html_1560671188622f6fcdab8a633b3f11cf" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Katsi<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1942</div>`)[0];
+                popup_b504a15f14e97605a5899911aebab27a.setContent(html_1560671188622f6fcdab8a633b3f11cf);
+            
+        
+
+        marker_d33fd8ed367623e466ef26346578c903.bindPopup(popup_b504a15f14e97605a5899911aebab27a)
+        ;
+
+        
+    
+    
+            marker_d33fd8ed367623e466ef26346578c903.bindTooltip(
+                `<div>
+                     Ha Katsi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d33fd8ed367623e466ef26346578c903.setIcon(icon_7848e4c885f6cb9bf8a173afc7fa62c3);
+            
+    
+            var marker_2efa14d56afd13c4b9804c6537d12401 = L.marker(
+                [-28.59311, 28.65899],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_37c42b444d4488319bbbf0753c58d91f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c9a30f0f0b3790777f505e2cde888ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cdb2e3026946cd2317effed38df9959e = $(`<div id="html_cdb2e3026946cd2317effed38df9959e" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Mohau<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2144</div>`)[0];
+                popup_0c9a30f0f0b3790777f505e2cde888ff.setContent(html_cdb2e3026946cd2317effed38df9959e);
+            
+        
+
+        marker_2efa14d56afd13c4b9804c6537d12401.bindPopup(popup_0c9a30f0f0b3790777f505e2cde888ff)
+        ;
+
+        
+    
+    
+            marker_2efa14d56afd13c4b9804c6537d12401.bindTooltip(
+                `<div>
+                     Ha Mohau
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2efa14d56afd13c4b9804c6537d12401.setIcon(icon_37c42b444d4488319bbbf0753c58d91f);
+            
+    
+            var marker_0116eb9891562d2e7e16fb239f292a6c = L.marker(
+                [-28.5795, 28.6551],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_104a705dac3d6e1cce0bb7bd3e9326b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ecab751f8adf4ade2f44c79fdce711fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b0950ac1e6d124389f899c9db376bbb = $(`<div id="html_7b0950ac1e6d124389f899c9db376bbb" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Mafika-Lisiu<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1993</div>`)[0];
+                popup_ecab751f8adf4ade2f44c79fdce711fc.setContent(html_7b0950ac1e6d124389f899c9db376bbb);
+            
+        
+
+        marker_0116eb9891562d2e7e16fb239f292a6c.bindPopup(popup_ecab751f8adf4ade2f44c79fdce711fc)
+        ;
+
+        
+    
+    
+            marker_0116eb9891562d2e7e16fb239f292a6c.bindTooltip(
+                `<div>
+                     Mafika-Lisiu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0116eb9891562d2e7e16fb239f292a6c.setIcon(icon_104a705dac3d6e1cce0bb7bd3e9326b7);
+            
+    
+            var marker_b31f7ec8d982bacf52af0d54be60512b = L.marker(
+                [-28.58431, 28.64627],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_b0bdf8c006006176490e6a6f39bf4d63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58aa0926e97d92617c5141734bc5533e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed86a604e41844e7f0b27d39cb9b2b55 = $(`<div id="html_ed86a604e41844e7f0b27d39cb9b2b55" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Sekoati<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2109</div>`)[0];
+                popup_58aa0926e97d92617c5141734bc5533e.setContent(html_ed86a604e41844e7f0b27d39cb9b2b55);
+            
+        
+
+        marker_b31f7ec8d982bacf52af0d54be60512b.bindPopup(popup_58aa0926e97d92617c5141734bc5533e)
+        ;
+
+        
+    
+    
+            marker_b31f7ec8d982bacf52af0d54be60512b.bindTooltip(
+                `<div>
+                     Ha Sekoati
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b31f7ec8d982bacf52af0d54be60512b.setIcon(icon_b0bdf8c006006176490e6a6f39bf4d63);
+            
+    
+            var marker_2bd286d278c9cf9cc849c204d849c9c6 = L.marker(
+                [-28.59166, 28.67778],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_6e356d828b375b46265345a3f7d7dd69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6314a7f69833e7809402ee1968b21b28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42a85a8a9043545a73a3ed9e95334f16 = $(`<div id="html_42a85a8a9043545a73a3ed9e95334f16" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Molisana<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2114</div>`)[0];
+                popup_6314a7f69833e7809402ee1968b21b28.setContent(html_42a85a8a9043545a73a3ed9e95334f16);
+            
+        
+
+        marker_2bd286d278c9cf9cc849c204d849c9c6.bindPopup(popup_6314a7f69833e7809402ee1968b21b28)
+        ;
+
+        
+    
+    
+            marker_2bd286d278c9cf9cc849c204d849c9c6.bindTooltip(
+                `<div>
+                     Ha Molisana
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2bd286d278c9cf9cc849c204d849c9c6.setIcon(icon_6e356d828b375b46265345a3f7d7dd69);
+            
+    
+            var marker_a53b0b7c40d5e4c9b2e8df528d2af033 = L.marker(
+                [-28.74652, 28.50715],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_84942d8abcf316cf6cbeae78ed581f2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_710d89f0ed16ba433bfec88b50ac2713 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce9106c9c00c95f53acc962f77b27199 = $(`<div id="html_ce9106c9c00c95f53acc962f77b27199" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Hlakacha<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1924</div>`)[0];
+                popup_710d89f0ed16ba433bfec88b50ac2713.setContent(html_ce9106c9c00c95f53acc962f77b27199);
+            
+        
+
+        marker_a53b0b7c40d5e4c9b2e8df528d2af033.bindPopup(popup_710d89f0ed16ba433bfec88b50ac2713)
+        ;
+
+        
+    
+    
+            marker_a53b0b7c40d5e4c9b2e8df528d2af033.bindTooltip(
+                `<div>
+                     Ha Hlakacha
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a53b0b7c40d5e4c9b2e8df528d2af033.setIcon(icon_84942d8abcf316cf6cbeae78ed581f2d);
+            
+    
+            var marker_0a856a766266d0eec3db742384cbf1d8 = L.marker(
+                [-28.7554, 28.27672],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_c9be7245a957ed364d20fa7aba622bd4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_733001994979ac2e89a6053f0753cfb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_827db3e5c37f0ac4b8508b8a98364fa2 = $(`<div id="html_827db3e5c37f0ac4b8508b8a98364fa2" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Majakaneng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1717</div>`)[0];
+                popup_733001994979ac2e89a6053f0753cfb7.setContent(html_827db3e5c37f0ac4b8508b8a98364fa2);
+            
+        
+
+        marker_0a856a766266d0eec3db742384cbf1d8.bindPopup(popup_733001994979ac2e89a6053f0753cfb7)
+        ;
+
+        
+    
+    
+            marker_0a856a766266d0eec3db742384cbf1d8.bindTooltip(
+                `<div>
+                     Majakaneng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0a856a766266d0eec3db742384cbf1d8.setIcon(icon_c9be7245a957ed364d20fa7aba622bd4);
+            
+    
+            var marker_b33b74495e80a40a3a90661b665f862f = L.marker(
+                [-28.78168, 28.27057],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_0d3903ddcb0df233140bb3c5b459f93f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_69a6688e68843aa8fe38067b2a091994 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1d9c7a1525e7759f3be2a723ca74519 = $(`<div id="html_e1d9c7a1525e7759f3be2a723ca74519" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Tlokoeng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1756</div>`)[0];
+                popup_69a6688e68843aa8fe38067b2a091994.setContent(html_e1d9c7a1525e7759f3be2a723ca74519);
+            
+        
+
+        marker_b33b74495e80a40a3a90661b665f862f.bindPopup(popup_69a6688e68843aa8fe38067b2a091994)
+        ;
+
+        
+    
+    
+            marker_b33b74495e80a40a3a90661b665f862f.bindTooltip(
+                `<div>
+                     Tlokoeng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b33b74495e80a40a3a90661b665f862f.setIcon(icon_0d3903ddcb0df233140bb3c5b459f93f);
+            
+    
+            var marker_25494c979fe3c3af4ec26cdb76a4d08d = L.marker(
+                [-28.79078, 28.28551],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_180b48116d8cddf8fe6e2d1745bf6158 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_510ea41bf9dde07fcfbc4069c3d3d20d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3acb647a97064180599c80a6c944f42 = $(`<div id="html_f3acb647a97064180599c80a6c944f42" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Matebeleng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1809</div>`)[0];
+                popup_510ea41bf9dde07fcfbc4069c3d3d20d.setContent(html_f3acb647a97064180599c80a6c944f42);
+            
+        
+
+        marker_25494c979fe3c3af4ec26cdb76a4d08d.bindPopup(popup_510ea41bf9dde07fcfbc4069c3d3d20d)
+        ;
+
+        
+    
+    
+            marker_25494c979fe3c3af4ec26cdb76a4d08d.bindTooltip(
+                `<div>
+                     Matebeleng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_25494c979fe3c3af4ec26cdb76a4d08d.setIcon(icon_180b48116d8cddf8fe6e2d1745bf6158);
+            
+    
+            var marker_d5d168d2451b127f8dbef5094723aa73 = L.marker(
+                [-28.78123, 28.30873],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_addf127e20d876290d57c25c54b45566 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_84af0cefb0c96da95cebdbcca8b735ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd9e8727b2ec20ec649c3b6ed9666f8b = $(`<div id="html_bd9e8727b2ec20ec649c3b6ed9666f8b" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Makanyaneng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1803</div>`)[0];
+                popup_84af0cefb0c96da95cebdbcca8b735ca.setContent(html_bd9e8727b2ec20ec649c3b6ed9666f8b);
+            
+        
+
+        marker_d5d168d2451b127f8dbef5094723aa73.bindPopup(popup_84af0cefb0c96da95cebdbcca8b735ca)
+        ;
+
+        
+    
+    
+            marker_d5d168d2451b127f8dbef5094723aa73.bindTooltip(
+                `<div>
+                     Makanyaneng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d5d168d2451b127f8dbef5094723aa73.setIcon(icon_addf127e20d876290d57c25c54b45566);
+            
+    
+            var marker_4d67af6cd20aa187ebc6c29010aee48f = L.marker(
+                [-28.77501, 28.31304],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_2abadedd37d7103a5f5418bb634660e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd6539f2c22cdd5b7649755f6eac95dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_731abaa09b234e8a157173555a3a7982 = $(`<div id="html_731abaa09b234e8a157173555a3a7982" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Lepekola<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1803</div>`)[0];
+                popup_fd6539f2c22cdd5b7649755f6eac95dc.setContent(html_731abaa09b234e8a157173555a3a7982);
+            
+        
+
+        marker_4d67af6cd20aa187ebc6c29010aee48f.bindPopup(popup_fd6539f2c22cdd5b7649755f6eac95dc)
+        ;
+
+        
+    
+    
+            marker_4d67af6cd20aa187ebc6c29010aee48f.bindTooltip(
+                `<div>
+                     Ha Lepekola
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4d67af6cd20aa187ebc6c29010aee48f.setIcon(icon_2abadedd37d7103a5f5418bb634660e8);
+            
+    
+            var marker_eee65ac3bdf00ccd589e40f1fa0bb553 = L.marker(
+                [-28.78989, 28.31785],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_15390d4d5476573ab6ac706575d08533 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_34cc9cfdcc962ffd129e83e5c92e4d26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a59b994edb827839b4db12857cdb6ab4 = $(`<div id="html_a59b994edb827839b4db12857cdb6ab4" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Lishobana<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1799</div>`)[0];
+                popup_34cc9cfdcc962ffd129e83e5c92e4d26.setContent(html_a59b994edb827839b4db12857cdb6ab4);
+            
+        
+
+        marker_eee65ac3bdf00ccd589e40f1fa0bb553.bindPopup(popup_34cc9cfdcc962ffd129e83e5c92e4d26)
+        ;
+
+        
+    
+    
+            marker_eee65ac3bdf00ccd589e40f1fa0bb553.bindTooltip(
+                `<div>
+                     Ha Lishobana
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_eee65ac3bdf00ccd589e40f1fa0bb553.setIcon(icon_15390d4d5476573ab6ac706575d08533);
+            
+    
+            var marker_d6dcade80562a9f6ff58c1f3402a263f = L.marker(
+                [-28.79659, 28.33786],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_76ab62f2cf1996f26221ff9302d97c56 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd6f570907c8a52672be51f8cb87182b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_259923600dcfdef0eccb3b55674ca8a6 = $(`<div id="html_259923600dcfdef0eccb3b55674ca8a6" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Khilibithing<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1816</div>`)[0];
+                popup_dd6f570907c8a52672be51f8cb87182b.setContent(html_259923600dcfdef0eccb3b55674ca8a6);
+            
+        
+
+        marker_d6dcade80562a9f6ff58c1f3402a263f.bindPopup(popup_dd6f570907c8a52672be51f8cb87182b)
+        ;
+
+        
+    
+    
+            marker_d6dcade80562a9f6ff58c1f3402a263f.bindTooltip(
+                `<div>
+                     Khilibithing
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d6dcade80562a9f6ff58c1f3402a263f.setIcon(icon_76ab62f2cf1996f26221ff9302d97c56);
+            
+    
+            var marker_bc3a126cf2da2649f8121df1a73ee10f = L.marker(
+                [-28.77747, 28.34182],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_86e85e0c04d486f8c28b95f06f545188 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aaeb1d63f01d6cbe198eb4c51af8ef4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6eb5955f7053d9a24114c09689c2d922 = $(`<div id="html_6eb5955f7053d9a24114c09689c2d922" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Selomo<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1730</div>`)[0];
+                popup_aaeb1d63f01d6cbe198eb4c51af8ef4d.setContent(html_6eb5955f7053d9a24114c09689c2d922);
+            
+        
+
+        marker_bc3a126cf2da2649f8121df1a73ee10f.bindPopup(popup_aaeb1d63f01d6cbe198eb4c51af8ef4d)
+        ;
+
+        
+    
+    
+            marker_bc3a126cf2da2649f8121df1a73ee10f.bindTooltip(
+                `<div>
+                     Ha Selomo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bc3a126cf2da2649f8121df1a73ee10f.setIcon(icon_86e85e0c04d486f8c28b95f06f545188);
+            
+    
+            var marker_abb0a2975fd047b0480b765a03ed4b6b = L.marker(
+                [-28.76292, 28.33969],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_e1eeecfcea51bf069c67e5d4fbc0bf33 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4cc7337bb3f68ba156c7b5a38d27428 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c73e9cb9e5a82478daf4e5955e82fa57 = $(`<div id="html_c73e9cb9e5a82478daf4e5955e82fa57" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Malofo<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1702</div>`)[0];
+                popup_b4cc7337bb3f68ba156c7b5a38d27428.setContent(html_c73e9cb9e5a82478daf4e5955e82fa57);
+            
+        
+
+        marker_abb0a2975fd047b0480b765a03ed4b6b.bindPopup(popup_b4cc7337bb3f68ba156c7b5a38d27428)
+        ;
+
+        
+    
+    
+            marker_abb0a2975fd047b0480b765a03ed4b6b.bindTooltip(
+                `<div>
+                     Ha Malofo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_abb0a2975fd047b0480b765a03ed4b6b.setIcon(icon_e1eeecfcea51bf069c67e5d4fbc0bf33);
+            
+    
+            var marker_ed53d9d30feea4a2d0765d4482ab8dcc = L.marker(
+                [-28.7586, 28.36124],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_3e9cdd57aa783b59745b7f866918520f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3f3ef3d80c570998c4765e7c5bfbd6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e30474d35e122ef374178f0bcd13fed9 = $(`<div id="html_e30474d35e122ef374178f0bcd13fed9" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Sebophe<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1719</div>`)[0];
+                popup_f3f3ef3d80c570998c4765e7c5bfbd6f.setContent(html_e30474d35e122ef374178f0bcd13fed9);
+            
+        
+
+        marker_ed53d9d30feea4a2d0765d4482ab8dcc.bindPopup(popup_f3f3ef3d80c570998c4765e7c5bfbd6f)
+        ;
+
+        
+    
+    
+            marker_ed53d9d30feea4a2d0765d4482ab8dcc.bindTooltip(
+                `<div>
+                     Ha Sebophe
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ed53d9d30feea4a2d0765d4482ab8dcc.setIcon(icon_3e9cdd57aa783b59745b7f866918520f);
+            
+    
+            var marker_d221bf7d5f347e662e4518b56c7fe91c = L.marker(
+                [-28.76791, 28.38173],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_a09849078158fd6c85d53080a94af5db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4860ffe8f6eb59853bec624e1fbe117b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c82153ecf7e1026d5f04e277a0d688cc = $(`<div id="html_c82153ecf7e1026d5f04e277a0d688cc" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Katamelo<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1871</div>`)[0];
+                popup_4860ffe8f6eb59853bec624e1fbe117b.setContent(html_c82153ecf7e1026d5f04e277a0d688cc);
+            
+        
+
+        marker_d221bf7d5f347e662e4518b56c7fe91c.bindPopup(popup_4860ffe8f6eb59853bec624e1fbe117b)
+        ;
+
+        
+    
+    
+            marker_d221bf7d5f347e662e4518b56c7fe91c.bindTooltip(
+                `<div>
+                     Ha Katamelo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d221bf7d5f347e662e4518b56c7fe91c.setIcon(icon_a09849078158fd6c85d53080a94af5db);
+            
+    
+            var marker_e30636c7c4e6751f4bd2d1b71ffcf765 = L.marker(
+                [-28.78577, 28.37637],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_bddc92b9178d3615aaf125680748fb9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed64f697b921ab3dbb87749ec02a5597 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54eb6efb4313a1c41a60580a8a65f127 = $(`<div id="html_54eb6efb4313a1c41a60580a8a65f127" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Mohalenyane<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1753</div>`)[0];
+                popup_ed64f697b921ab3dbb87749ec02a5597.setContent(html_54eb6efb4313a1c41a60580a8a65f127);
+            
+        
+
+        marker_e30636c7c4e6751f4bd2d1b71ffcf765.bindPopup(popup_ed64f697b921ab3dbb87749ec02a5597)
+        ;
+
+        
+    
+    
+            marker_e30636c7c4e6751f4bd2d1b71ffcf765.bindTooltip(
+                `<div>
+                     Ha Mohalenyane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e30636c7c4e6751f4bd2d1b71ffcf765.setIcon(icon_bddc92b9178d3615aaf125680748fb9e);
+            
+    
+            var marker_05f57378c97733a8726479c3c7123463 = L.marker(
+                [-28.80469, 28.39673],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_a816f226615094396064024d95b7343c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d95aba83df8396f72f791d3a22138fbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a97150721142816e42994712bc68c215 = $(`<div id="html_a97150721142816e42994712bc68c215" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Mothunts'ane<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1827</div>`)[0];
+                popup_d95aba83df8396f72f791d3a22138fbd.setContent(html_a97150721142816e42994712bc68c215);
+            
+        
+
+        marker_05f57378c97733a8726479c3c7123463.bindPopup(popup_d95aba83df8396f72f791d3a22138fbd)
+        ;
+
+        
+    
+    
+            marker_05f57378c97733a8726479c3c7123463.bindTooltip(
+                `<div>
+                     Ha Mothunts'ane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_05f57378c97733a8726479c3c7123463.setIcon(icon_a816f226615094396064024d95b7343c);
+            
+    
+            var marker_f24d20632259cf7ec582aaa698807546 = L.marker(
+                [-28.82124, 28.41639],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_8c77b2ee0313323e4f85c2d3f822aca8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_321c3533877ae8b71557acc0547d1c7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7aaa01d292bff150400ba42330282b78 = $(`<div id="html_7aaa01d292bff150400ba42330282b78" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Tamaseka<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1878</div>`)[0];
+                popup_321c3533877ae8b71557acc0547d1c7f.setContent(html_7aaa01d292bff150400ba42330282b78);
+            
+        
+
+        marker_f24d20632259cf7ec582aaa698807546.bindPopup(popup_321c3533877ae8b71557acc0547d1c7f)
+        ;
+
+        
+    
+    
+            marker_f24d20632259cf7ec582aaa698807546.bindTooltip(
+                `<div>
+                     Tamaseka
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f24d20632259cf7ec582aaa698807546.setIcon(icon_8c77b2ee0313323e4f85c2d3f822aca8);
+            
+    
+            var marker_89f8a976c9c5836b7d9145683f6c93ef = L.marker(
+                [-28.83583, 28.43082],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_918120480ff804b9a93abfaa1b6047f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b08b44e5f6d7dad84152e465b724f7a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f75d7a00d48e422974c9ebb916ec85f0 = $(`<div id="html_f75d7a00d48e422974c9ebb916ec85f0" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Mabaleteng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1933</div>`)[0];
+                popup_b08b44e5f6d7dad84152e465b724f7a3.setContent(html_f75d7a00d48e422974c9ebb916ec85f0);
+            
+        
+
+        marker_89f8a976c9c5836b7d9145683f6c93ef.bindPopup(popup_b08b44e5f6d7dad84152e465b724f7a3)
+        ;
+
+        
+    
+    
+            marker_89f8a976c9c5836b7d9145683f6c93ef.bindTooltip(
+                `<div>
+                     Mabaleteng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_89f8a976c9c5836b7d9145683f6c93ef.setIcon(icon_918120480ff804b9a93abfaa1b6047f4);
+            
+    
+            var marker_b197e4dfafd6a5970724d9e4833d6a17 = L.marker(
+                [-28.8355, 28.46605],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_d1b3a97b122bfb7e0bb41a0ba587420b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a93962c5518ac11a2dd0ba693a717be4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93fc229f66d640c1a6ecd4479c759f24 = $(`<div id="html_93fc229f66d640c1a6ecd4479c759f24" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Makeneg<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1991</div>`)[0];
+                popup_a93962c5518ac11a2dd0ba693a717be4.setContent(html_93fc229f66d640c1a6ecd4479c759f24);
+            
+        
+
+        marker_b197e4dfafd6a5970724d9e4833d6a17.bindPopup(popup_a93962c5518ac11a2dd0ba693a717be4)
+        ;
+
+        
+    
+    
+            marker_b197e4dfafd6a5970724d9e4833d6a17.bindTooltip(
+                `<div>
+                     Makeneg
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b197e4dfafd6a5970724d9e4833d6a17.setIcon(icon_d1b3a97b122bfb7e0bb41a0ba587420b);
+            
+    
+            var marker_72f1ec68f339874a04498680a9971e56 = L.marker(
+                [-28.79207, 28.43147],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_ab1a3b608bdefab64cadf773da8ec792 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9d65486b3b462454d6eac098edebcb23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b29310c3d5916e68a176c3aed8ac0384 = $(`<div id="html_b29310c3d5916e68a176c3aed8ac0384" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Lifefong<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1876</div>`)[0];
+                popup_9d65486b3b462454d6eac098edebcb23.setContent(html_b29310c3d5916e68a176c3aed8ac0384);
+            
+        
+
+        marker_72f1ec68f339874a04498680a9971e56.bindPopup(popup_9d65486b3b462454d6eac098edebcb23)
+        ;
+
+        
+    
+    
+            marker_72f1ec68f339874a04498680a9971e56.bindTooltip(
+                `<div>
+                     Lifefong
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_72f1ec68f339874a04498680a9971e56.setIcon(icon_ab1a3b608bdefab64cadf773da8ec792);
+            
+    
+            var marker_115e57e441fb7a2938f6c70b8abaec13 = L.marker(
+                [-28.7842, 28.46605],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_89ad6cd2e4de195891a722089a0835ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dabcefe4a16f3a8afbbaa2975e672103 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e557553423b7600810df41ba5138935f = $(`<div id="html_e557553423b7600810df41ba5138935f" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Boinyatso<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1958</div>`)[0];
+                popup_dabcefe4a16f3a8afbbaa2975e672103.setContent(html_e557553423b7600810df41ba5138935f);
+            
+        
+
+        marker_115e57e441fb7a2938f6c70b8abaec13.bindPopup(popup_dabcefe4a16f3a8afbbaa2975e672103)
+        ;
+
+        
+    
+    
+            marker_115e57e441fb7a2938f6c70b8abaec13.bindTooltip(
+                `<div>
+                     Boinyatso
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_115e57e441fb7a2938f6c70b8abaec13.setIcon(icon_89ad6cd2e4de195891a722089a0835ee);
+            
+    
+            var marker_c33faccdd12ed44cddb136e5740420ad = L.marker(
+                [-28.77601, 28.46195],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_ee5b0b0de471c9625aef2942992c0014 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_70617a5f3c979416706fe52a7831b345 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c527d334f4e7dfc118cc05d54c325e63 = $(`<div id="html_c527d334f4e7dfc118cc05d54c325e63" style="width: 100.0%; height: 100.0%;"><b>Village:</b> 'Muela<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1861</div>`)[0];
+                popup_70617a5f3c979416706fe52a7831b345.setContent(html_c527d334f4e7dfc118cc05d54c325e63);
+            
+        
+
+        marker_c33faccdd12ed44cddb136e5740420ad.bindPopup(popup_70617a5f3c979416706fe52a7831b345)
+        ;
+
+        
+    
+    
+            marker_c33faccdd12ed44cddb136e5740420ad.bindTooltip(
+                `<div>
+                     'Muela
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c33faccdd12ed44cddb136e5740420ad.setIcon(icon_ee5b0b0de471c9625aef2942992c0014);
+            
+    
+            var marker_1672c17aecc3132d279e57a8d077f7f0 = L.marker(
+                [-28.79322, 28.48457],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_83614bb46b4f6d9aa4ec531d864c4502 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8455b7031ae109e08f303bf521ea3b3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ef6b5ce0fb83e12d5cba621eb279c5c = $(`<div id="html_5ef6b5ce0fb83e12d5cba621eb279c5c" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Moholeng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2025</div>`)[0];
+                popup_8455b7031ae109e08f303bf521ea3b3f.setContent(html_5ef6b5ce0fb83e12d5cba621eb279c5c);
+            
+        
+
+        marker_1672c17aecc3132d279e57a8d077f7f0.bindPopup(popup_8455b7031ae109e08f303bf521ea3b3f)
+        ;
+
+        
+    
+    
+            marker_1672c17aecc3132d279e57a8d077f7f0.bindTooltip(
+                `<div>
+                     Moholeng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1672c17aecc3132d279e57a8d077f7f0.setIcon(icon_83614bb46b4f6d9aa4ec531d864c4502);
+            
+    
+            var marker_618acdd0efad8ba55376502e0f003f0a = L.marker(
+                [-28.80502, 28.35526],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_7ef7b88c1f0674fa87506cccca2a8f3e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f95e6754e8ab1befde1df4ea651fd53c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_506f600e8e47ea43685792097aa1d916 = $(`<div id="html_506f600e8e47ea43685792097aa1d916" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Leboea<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1798</div>`)[0];
+                popup_f95e6754e8ab1befde1df4ea651fd53c.setContent(html_506f600e8e47ea43685792097aa1d916);
+            
+        
+
+        marker_618acdd0efad8ba55376502e0f003f0a.bindPopup(popup_f95e6754e8ab1befde1df4ea651fd53c)
+        ;
+
+        
+    
+    
+            marker_618acdd0efad8ba55376502e0f003f0a.bindTooltip(
+                `<div>
+                     Ha Leboea
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_618acdd0efad8ba55376502e0f003f0a.setIcon(icon_7ef7b88c1f0674fa87506cccca2a8f3e);
+            
+    
+            var marker_882d4130061fae81e7f09bea3bdb1dc1 = L.marker(
+                [-28.76214, 28.50529],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_b7b44cfd77270df1dd98a1af46d4129c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cca673f449c3d341e3ce2b062b4d80bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c12e6d588f4d317e5f0ee1ae97d2bd66 = $(`<div id="html_c12e6d588f4d317e5f0ee1ae97d2bd66" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Phelantaba<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1861</div>`)[0];
+                popup_cca673f449c3d341e3ce2b062b4d80bb.setContent(html_c12e6d588f4d317e5f0ee1ae97d2bd66);
+            
+        
+
+        marker_882d4130061fae81e7f09bea3bdb1dc1.bindPopup(popup_cca673f449c3d341e3ce2b062b4d80bb)
+        ;
+
+        
+    
+    
+            marker_882d4130061fae81e7f09bea3bdb1dc1.bindTooltip(
+                `<div>
+                     Phelantaba
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_882d4130061fae81e7f09bea3bdb1dc1.setIcon(icon_b7b44cfd77270df1dd98a1af46d4129c);
+            
+    
+            var marker_879d9b2d6193b40b9e8c8da7351b9dc8 = L.marker(
+                [-28.76164, 28.53593],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_efd4eed724269c87c7001ec4c2422408 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee480e813d6345eb2942f5f8ab0b35cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a132d2131864629d07725558c5d39c04 = $(`<div id="html_a132d2131864629d07725558c5d39c04" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Khamane<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2114</div>`)[0];
+                popup_ee480e813d6345eb2942f5f8ab0b35cc.setContent(html_a132d2131864629d07725558c5d39c04);
+            
+        
+
+        marker_879d9b2d6193b40b9e8c8da7351b9dc8.bindPopup(popup_ee480e813d6345eb2942f5f8ab0b35cc)
+        ;
+
+        
+    
+    
+            marker_879d9b2d6193b40b9e8c8da7351b9dc8.bindTooltip(
+                `<div>
+                     Khamane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_879d9b2d6193b40b9e8c8da7351b9dc8.setIcon(icon_efd4eed724269c87c7001ec4c2422408);
+            
+    
+            var marker_8cce77f9876a5b53da809139adff7067 = L.marker(
+                [-28.78728, 28.52204],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_ca92e539f4b27b11adbcfa7b24af1543 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9882b3ea22cfb21bcb7d4f9a2cb0849 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1be81bb81c7cfc8fefd9d2c4f2a076cf = $(`<div id="html_1be81bb81c7cfc8fefd9d2c4f2a076cf" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Sebataolong<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2001</div>`)[0];
+                popup_d9882b3ea22cfb21bcb7d4f9a2cb0849.setContent(html_1be81bb81c7cfc8fefd9d2c4f2a076cf);
+            
+        
+
+        marker_8cce77f9876a5b53da809139adff7067.bindPopup(popup_d9882b3ea22cfb21bcb7d4f9a2cb0849)
+        ;
+
+        
+    
+    
+            marker_8cce77f9876a5b53da809139adff7067.bindTooltip(
+                `<div>
+                     Sebataolong
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8cce77f9876a5b53da809139adff7067.setIcon(icon_ca92e539f4b27b11adbcfa7b24af1543);
+            
+    
+            var marker_f17fddd3404fe4f3e3b4f0b439efc6b0 = L.marker(
+                [-28.8236, 28.61997],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_50fb8f11f854065cca5da13ff534e6a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee62e17a4aae03212c59e6ec6abe56c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a899ea081bdf712daffb7f7f0cca1dcb = $(`<div id="html_a899ea081bdf712daffb7f7f0cca1dcb" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Ranthokoe<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2487</div>`)[0];
+                popup_ee62e17a4aae03212c59e6ec6abe56c3.setContent(html_a899ea081bdf712daffb7f7f0cca1dcb);
+            
+        
+
+        marker_f17fddd3404fe4f3e3b4f0b439efc6b0.bindPopup(popup_ee62e17a4aae03212c59e6ec6abe56c3)
+        ;
+
+        
+    
+    
+            marker_f17fddd3404fe4f3e3b4f0b439efc6b0.bindTooltip(
+                `<div>
+                     Ha Ranthokoe
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f17fddd3404fe4f3e3b4f0b439efc6b0.setIcon(icon_50fb8f11f854065cca5da13ff534e6a9);
+            
+    
+            var marker_0327de5bdfcb1beb61b6096550f034ab = L.marker(
+                [-28.86313, 28.59398],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_7a94ada275d02650cc9f15df2124251b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_79b82f925984426f9fa2510937b08c7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fbd4b6a064d6d348e658ae39e100194 = $(`<div id="html_3fbd4b6a064d6d348e658ae39e100194" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Boalathapo<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2442</div>`)[0];
+                popup_79b82f925984426f9fa2510937b08c7e.setContent(html_3fbd4b6a064d6d348e658ae39e100194);
+            
+        
+
+        marker_0327de5bdfcb1beb61b6096550f034ab.bindPopup(popup_79b82f925984426f9fa2510937b08c7e)
+        ;
+
+        
+    
+    
+            marker_0327de5bdfcb1beb61b6096550f034ab.bindTooltip(
+                `<div>
+                     Boalathapo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0327de5bdfcb1beb61b6096550f034ab.setIcon(icon_7a94ada275d02650cc9f15df2124251b);
+            
+    
+            var marker_f7f82f0f4f8bd371bbbab236fff89101 = L.marker(
+                [-28.90409, 28.57973],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_f933a66b8dfad4f269ce1cde35bd22f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6c7f59f4349368607aca3aab2debc19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04f8d0dfdf5a858d878b87c7055bbb52 = $(`<div id="html_04f8d0dfdf5a858d878b87c7055bbb52" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Moetsuoa<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2455</div>`)[0];
+                popup_d6c7f59f4349368607aca3aab2debc19.setContent(html_04f8d0dfdf5a858d878b87c7055bbb52);
+            
+        
+
+        marker_f7f82f0f4f8bd371bbbab236fff89101.bindPopup(popup_d6c7f59f4349368607aca3aab2debc19)
+        ;
+
+        
+    
+    
+            marker_f7f82f0f4f8bd371bbbab236fff89101.bindTooltip(
+                `<div>
+                     Ha Moetsuoa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f7f82f0f4f8bd371bbbab236fff89101.setIcon(icon_f933a66b8dfad4f269ce1cde35bd22f0);
+            
+    
+            var marker_43a0b31502a3b73168e890e623c553d1 = L.marker(
+                [-28.90373, 28.54804],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_e33d75e99adc71af246b95e7dd0b4d3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_420187b7b2c29fff9548e2850c7ec010 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a5578baeeba77db149d64c844e922e8 = $(`<div id="html_1a5578baeeba77db149d64c844e922e8" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Liqalaneng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2356</div>`)[0];
+                popup_420187b7b2c29fff9548e2850c7ec010.setContent(html_1a5578baeeba77db149d64c844e922e8);
+            
+        
+
+        marker_43a0b31502a3b73168e890e623c553d1.bindPopup(popup_420187b7b2c29fff9548e2850c7ec010)
+        ;
+
+        
+    
+    
+            marker_43a0b31502a3b73168e890e623c553d1.bindTooltip(
+                `<div>
+                     Liqalaneng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_43a0b31502a3b73168e890e623c553d1.setIcon(icon_e33d75e99adc71af246b95e7dd0b4d3b);
+            
+    
+            var marker_b5ba484d6526eda842c4f097bad6ebb7 = L.marker(
+                [-28.93151, 28.54661],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_4bfb946af573f66ef5bf53cbec263d72 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4fc4a5fba480acd4c444ae58832a2dcf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c6e6cb3fcf405c1be6196680431ecb4 = $(`<div id="html_0c6e6cb3fcf405c1be6196680431ecb4" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Maoela-oela<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2311</div>`)[0];
+                popup_4fc4a5fba480acd4c444ae58832a2dcf.setContent(html_0c6e6cb3fcf405c1be6196680431ecb4);
+            
+        
+
+        marker_b5ba484d6526eda842c4f097bad6ebb7.bindPopup(popup_4fc4a5fba480acd4c444ae58832a2dcf)
+        ;
+
+        
+    
+    
+            marker_b5ba484d6526eda842c4f097bad6ebb7.bindTooltip(
+                `<div>
+                     Maoela-oela
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b5ba484d6526eda842c4f097bad6ebb7.setIcon(icon_4bfb946af573f66ef5bf53cbec263d72);
+            
+    
+            var marker_28f478da4bfd4248bc722310cd8a3bcf = L.marker(
+                [-28.94871, 28.5595],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_bbf4afb1d4aa4b81cc8988645da8f7e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_10ee167a4e8de9c91c28fc8ca1d8fe75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_561822f2259332077e5a03354d285e37 = $(`<div id="html_561822f2259332077e5a03354d285e37" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Lehloara<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2240</div>`)[0];
+                popup_10ee167a4e8de9c91c28fc8ca1d8fe75.setContent(html_561822f2259332077e5a03354d285e37);
+            
+        
+
+        marker_28f478da4bfd4248bc722310cd8a3bcf.bindPopup(popup_10ee167a4e8de9c91c28fc8ca1d8fe75)
+        ;
+
+        
+    
+    
+            marker_28f478da4bfd4248bc722310cd8a3bcf.bindTooltip(
+                `<div>
+                     Ha Lehloara
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_28f478da4bfd4248bc722310cd8a3bcf.setIcon(icon_bbf4afb1d4aa4b81cc8988645da8f7e1);
+            
+    
+            var marker_ec211237d1569234dd6b9802174aa5d7 = L.marker(
+                [-28.95144, 28.57614],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_fc969aee06804d947ad73e334d4f8b6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_79a3043bae66fc468d32a323be2903a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f3569c74e9d3cd88d00f6f3b4660c4c = $(`<div id="html_9f3569c74e9d3cd88d00f6f3b4660c4c" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Lemphane<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2409</div>`)[0];
+                popup_79a3043bae66fc468d32a323be2903a0.setContent(html_9f3569c74e9d3cd88d00f6f3b4660c4c);
+            
+        
+
+        marker_ec211237d1569234dd6b9802174aa5d7.bindPopup(popup_79a3043bae66fc468d32a323be2903a0)
+        ;
+
+        
+    
+    
+            marker_ec211237d1569234dd6b9802174aa5d7.bindTooltip(
+                `<div>
+                     Ha Lemphane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ec211237d1569234dd6b9802174aa5d7.setIcon(icon_fc969aee06804d947ad73e334d4f8b6d);
+            
+    
+            var marker_1094121c0f4aaaf34b5bc6b85209951c = L.marker(
+                [-28.98084, 28.53876],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_8f93d8822c9006a5df25b5650c5835f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2c7b8432d45bb70f2c4b3f37e0d1d979 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9fee2a69b9910bd4e2b24a5fde90d81 = $(`<div id="html_e9fee2a69b9910bd4e2b24a5fde90d81" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Lehlakaneng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2420</div>`)[0];
+                popup_2c7b8432d45bb70f2c4b3f37e0d1d979.setContent(html_e9fee2a69b9910bd4e2b24a5fde90d81);
+            
+        
+
+        marker_1094121c0f4aaaf34b5bc6b85209951c.bindPopup(popup_2c7b8432d45bb70f2c4b3f37e0d1d979)
+        ;
+
+        
+    
+    
+            marker_1094121c0f4aaaf34b5bc6b85209951c.bindTooltip(
+                `<div>
+                     Lehlakaneng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1094121c0f4aaaf34b5bc6b85209951c.setIcon(icon_8f93d8822c9006a5df25b5650c5835f5);
+            
+    
+            var marker_0b74a445eaf37336081b1f0de7aae611 = L.marker(
+                [-28.99725, 28.54674],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_78ebfc7398004704b38ae4167df2b3d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33b2787c9a2d9cc775c875729a208492 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb7911b7be256f16b42bc4ce600d96d1 = $(`<div id="html_bb7911b7be256f16b42bc4ce600d96d1" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Tomo<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2273</div>`)[0];
+                popup_33b2787c9a2d9cc775c875729a208492.setContent(html_bb7911b7be256f16b42bc4ce600d96d1);
+            
+        
+
+        marker_0b74a445eaf37336081b1f0de7aae611.bindPopup(popup_33b2787c9a2d9cc775c875729a208492)
+        ;
+
+        
+    
+    
+            marker_0b74a445eaf37336081b1f0de7aae611.bindTooltip(
+                `<div>
+                     Ha Tomo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0b74a445eaf37336081b1f0de7aae611.setIcon(icon_78ebfc7398004704b38ae4167df2b3d7);
+            
+    
+            var marker_44f4ad978cbc46310787d0d11833670f = L.marker(
+                [-28.98928, 28.59871],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_b5a48e4ba29371d623e75bfef6700721 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_978990dc83748da49ce606ed36bc74d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6f0db89f4d18a2a519a9ad9f364fce5 = $(`<div id="html_f6f0db89f4d18a2a519a9ad9f364fce5" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Liqhobong<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2438</div>`)[0];
+                popup_978990dc83748da49ce606ed36bc74d1.setContent(html_f6f0db89f4d18a2a519a9ad9f364fce5);
+            
+        
+
+        marker_44f4ad978cbc46310787d0d11833670f.bindPopup(popup_978990dc83748da49ce606ed36bc74d1)
+        ;
+
+        
+    
+    
+            marker_44f4ad978cbc46310787d0d11833670f.bindTooltip(
+                `<div>
+                     Liqhobong
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_44f4ad978cbc46310787d0d11833670f.setIcon(icon_b5a48e4ba29371d623e75bfef6700721);
+            
+    
+            var marker_20fd5f3d79cc7ded6555a238b0daebd6 = L.marker(
+                [-28.96785, 28.59324],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_564b33196f1a3e4447d67752a4d16834 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f13ce2f1db85dfd39d2754e82ce447ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef031f2b341b74a5b2445c33627d1655 = $(`<div id="html_ef031f2b341b74a5b2445c33627d1655" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Sekhobe<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2448</div>`)[0];
+                popup_f13ce2f1db85dfd39d2754e82ce447ce.setContent(html_ef031f2b341b74a5b2445c33627d1655);
+            
+        
+
+        marker_20fd5f3d79cc7ded6555a238b0daebd6.bindPopup(popup_f13ce2f1db85dfd39d2754e82ce447ce)
+        ;
+
+        
+    
+    
+            marker_20fd5f3d79cc7ded6555a238b0daebd6.bindTooltip(
+                `<div>
+                     Ha Sekhobe
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_20fd5f3d79cc7ded6555a238b0daebd6.setIcon(icon_564b33196f1a3e4447d67752a4d16834);
+            
+    
+            var marker_4b1e191455669b723e181309308a4660 = L.marker(
+                [-28.95965, 28.60372],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_742b8b058a3c4b4768af65fa4cf47997 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7f9269ff60c5825f78f890be9a1d73c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb7bad2fb8b3624fa2f3f17026a181fb = $(`<div id="html_eb7bad2fb8b3624fa2f3f17026a181fb" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Patuoe<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2388</div>`)[0];
+                popup_7f9269ff60c5825f78f890be9a1d73c7.setContent(html_eb7bad2fb8b3624fa2f3f17026a181fb);
+            
+        
+
+        marker_4b1e191455669b723e181309308a4660.bindPopup(popup_7f9269ff60c5825f78f890be9a1d73c7)
+        ;
+
+        
+    
+    
+            marker_4b1e191455669b723e181309308a4660.bindTooltip(
+                `<div>
+                     Patuoe
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4b1e191455669b723e181309308a4660.setIcon(icon_742b8b058a3c4b4768af65fa4cf47997);
+            
+    
+            var marker_1435fbbfd68efe5ba71f3dcf917f68bd = L.marker(
+                [-28.9462, 28.61192],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_bf01196adf51c16cb01ff38f4630e2e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd908e1ad0f0870899234bc27274e9e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f3338b8c58ce0e9e13767207765b9c2 = $(`<div id="html_7f3338b8c58ce0e9e13767207765b9c2" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Thoteng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2287</div>`)[0];
+                popup_dd908e1ad0f0870899234bc27274e9e0.setContent(html_7f3338b8c58ce0e9e13767207765b9c2);
+            
+        
+
+        marker_1435fbbfd68efe5ba71f3dcf917f68bd.bindPopup(popup_dd908e1ad0f0870899234bc27274e9e0)
+        ;
+
+        
+    
+    
+            marker_1435fbbfd68efe5ba71f3dcf917f68bd.bindTooltip(
+                `<div>
+                     Thoteng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1435fbbfd68efe5ba71f3dcf917f68bd.setIcon(icon_bf01196adf51c16cb01ff38f4630e2e2);
+            
+    
+            var marker_20aa6630c2791aae827d7d0ce7f325dc = L.marker(
+                [-28.9307, 28.6297],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_d6f3219ffc3ba7c537382af0052b173b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83a8b69d2a6738a902c22271fccf50ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31377361e581f9e3f31b4fb44dc9648f = $(`<div id="html_31377361e581f9e3f31b4fb44dc9648f" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Liteleng<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2371</div>`)[0];
+                popup_83a8b69d2a6738a902c22271fccf50ff.setContent(html_31377361e581f9e3f31b4fb44dc9648f);
+            
+        
+
+        marker_20aa6630c2791aae827d7d0ce7f325dc.bindPopup(popup_83a8b69d2a6738a902c22271fccf50ff)
+        ;
+
+        
+    
+    
+            marker_20aa6630c2791aae827d7d0ce7f325dc.bindTooltip(
+                `<div>
+                     Liteleng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_20aa6630c2791aae827d7d0ce7f325dc.setIcon(icon_d6f3219ffc3ba7c537382af0052b173b);
+            
+    
+            var marker_cb0b269d93bc5369c41c396fe055cb51 = L.marker(
+                [-28.90928, 28.637],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_743910c28b6af36a4f8a9af82578f1bb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_835da0a528a69afde78ccc081f60647c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad0c4ddb55976ee79f2c61fc601cc716 = $(`<div id="html_ad0c4ddb55976ee79f2c61fc601cc716" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Setonong<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2389</div>`)[0];
+                popup_835da0a528a69afde78ccc081f60647c.setContent(html_ad0c4ddb55976ee79f2c61fc601cc716);
+            
+        
+
+        marker_cb0b269d93bc5369c41c396fe055cb51.bindPopup(popup_835da0a528a69afde78ccc081f60647c)
+        ;
+
+        
+    
+    
+            marker_cb0b269d93bc5369c41c396fe055cb51.bindTooltip(
+                `<div>
+                     Setonong
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cb0b269d93bc5369c41c396fe055cb51.setIcon(icon_743910c28b6af36a4f8a9af82578f1bb);
+            
+    
+            var marker_fea95bc53932e2d117c844721642c6e2 = L.marker(
+                [-29.00771, 28.5175],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_9422a059d803d5eb415379ca7fef98a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c7cb6fe711b23a255a405d74f83b7bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c031e7601d9396a873fccd808102c80 = $(`<div id="html_4c031e7601d9396a873fccd808102c80" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Rampai<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2440</div>`)[0];
+                popup_9c7cb6fe711b23a255a405d74f83b7bb.setContent(html_4c031e7601d9396a873fccd808102c80);
+            
+        
+
+        marker_fea95bc53932e2d117c844721642c6e2.bindPopup(popup_9c7cb6fe711b23a255a405d74f83b7bb)
+        ;
+
+        
+    
+    
+            marker_fea95bc53932e2d117c844721642c6e2.bindTooltip(
+                `<div>
+                     Ha Rampai
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fea95bc53932e2d117c844721642c6e2.setIcon(icon_9422a059d803d5eb415379ca7fef98a2);
+            
+    
+            var marker_ce6dbf38535db4e92174e3c1de0bd511 = L.marker(
+                [-29.03328, 28.52577],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_b7b7758af1d32b52b42113dd1a2caec7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2bab5cbf6670b1652851d2b50e4c79a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f91f9219e5e4c32b85eec129dadf76d = $(`<div id="html_1f91f9219e5e4c32b85eec129dadf76d" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Mahlekefane<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2272</div>`)[0];
+                popup_2bab5cbf6670b1652851d2b50e4c79a2.setContent(html_1f91f9219e5e4c32b85eec129dadf76d);
+            
+        
+
+        marker_ce6dbf38535db4e92174e3c1de0bd511.bindPopup(popup_2bab5cbf6670b1652851d2b50e4c79a2)
+        ;
+
+        
+    
+    
+            marker_ce6dbf38535db4e92174e3c1de0bd511.bindTooltip(
+                `<div>
+                     Ha Mahlekefane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ce6dbf38535db4e92174e3c1de0bd511.setIcon(icon_b7b7758af1d32b52b42113dd1a2caec7);
+            
+    
+            var marker_b291106052d52b7ff13eeeff98dd5b1f = L.marker(
+                [-29.02376, 28.56915],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_5ff0734edaa7bb9e682e663a772cd546 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e401a64d92b6ae37773f074875557678 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81f9f4bd99e37972a77a73b76c52571d = $(`<div id="html_81f9f4bd99e37972a77a73b76c52571d" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Sello<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2346</div>`)[0];
+                popup_e401a64d92b6ae37773f074875557678.setContent(html_81f9f4bd99e37972a77a73b76c52571d);
+            
+        
+
+        marker_b291106052d52b7ff13eeeff98dd5b1f.bindPopup(popup_e401a64d92b6ae37773f074875557678)
+        ;
+
+        
+    
+    
+            marker_b291106052d52b7ff13eeeff98dd5b1f.bindTooltip(
+                `<div>
+                     Ha Sello
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b291106052d52b7ff13eeeff98dd5b1f.setIcon(icon_5ff0734edaa7bb9e682e663a772cd546);
+            
+    
+            var marker_6eb33c72c07042d2f047af3bf0746998 = L.marker(
+                [-29.07115, 28.51549],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_bd9c672a669ba10ed38ee1fca43a52bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_928fa550a647f6845c9d3df614130c2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18c4eae313e130c190bdcbc435301b95 = $(`<div id="html_18c4eae313e130c190bdcbc435301b95" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Lesaoana<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2284</div>`)[0];
+                popup_928fa550a647f6845c9d3df614130c2f.setContent(html_18c4eae313e130c190bdcbc435301b95);
+            
+        
+
+        marker_6eb33c72c07042d2f047af3bf0746998.bindPopup(popup_928fa550a647f6845c9d3df614130c2f)
+        ;
+
+        
+    
+    
+            marker_6eb33c72c07042d2f047af3bf0746998.bindTooltip(
+                `<div>
+                     Ha Lesaoana
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6eb33c72c07042d2f047af3bf0746998.setIcon(icon_bd9c672a669ba10ed38ee1fca43a52bd);
+            
+    
+            var marker_7bf109794bc8528fd90574123cd48533 = L.marker(
+                [-29.00971, 28.60024],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_ac81e3ceb7cff35ddfeb95504a97296c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c26689d170220cc71e33fbb7f3600fd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd58248d6e11dd59e1f519ff470bff54 = $(`<div id="html_dd58248d6e11dd59e1f519ff470bff54" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Lephats'oane<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2388</div>`)[0];
+                popup_c26689d170220cc71e33fbb7f3600fd3.setContent(html_dd58248d6e11dd59e1f519ff470bff54);
+            
+        
+
+        marker_7bf109794bc8528fd90574123cd48533.bindPopup(popup_c26689d170220cc71e33fbb7f3600fd3)
+        ;
+
+        
+    
+    
+            marker_7bf109794bc8528fd90574123cd48533.bindTooltip(
+                `<div>
+                     Ha Lephats'oane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7bf109794bc8528fd90574123cd48533.setIcon(icon_ac81e3ceb7cff35ddfeb95504a97296c);
+            
+    
+            var marker_e1b2c0e1119b7b9146cace270602d816 = L.marker(
+                [-29.03629, 28.59623],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_011b357f3c4532c1f1228a0d540180e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_75fc3942991a04856ffb7ca82866e3d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d7c1ca9966a887563875bae74207e2c = $(`<div id="html_6d7c1ca9966a887563875bae74207e2c" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Ralinko<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2528</div>`)[0];
+                popup_75fc3942991a04856ffb7ca82866e3d2.setContent(html_6d7c1ca9966a887563875bae74207e2c);
+            
+        
+
+        marker_e1b2c0e1119b7b9146cace270602d816.bindPopup(popup_75fc3942991a04856ffb7ca82866e3d2)
+        ;
+
+        
+    
+    
+            marker_e1b2c0e1119b7b9146cace270602d816.bindTooltip(
+                `<div>
+                     Ha Ralinko
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e1b2c0e1119b7b9146cace270602d816.setIcon(icon_011b357f3c4532c1f1228a0d540180e1);
+            
+    
+            var marker_34b6551135288ae46884e48339fa7119 = L.marker(
+                [-29.02125, 28.63058],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_435f6dc48b63bc8f7ede99039e36386a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e597c1564f07815cf613d3d3243b0a58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e57dea87339c4beb50948e2431760977 = $(`<div id="html_e57dea87339c4beb50948e2431760977" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Kao (Shishila)<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 2513</div>`)[0];
+                popup_e597c1564f07815cf613d3d3243b0a58.setContent(html_e57dea87339c4beb50948e2431760977);
+            
+        
+
+        marker_34b6551135288ae46884e48339fa7119.bindPopup(popup_e597c1564f07815cf613d3d3243b0a58)
+        ;
+
+        
+    
+    
+            marker_34b6551135288ae46884e48339fa7119.bindTooltip(
+                `<div>
+                     Kao (Shishila)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_34b6551135288ae46884e48339fa7119.setIcon(icon_435f6dc48b63bc8f7ede99039e36386a);
+            
+    
+            var marker_06a814759d4bffffe23a98f911fa95b1 = L.marker(
+                [-28.76806, 28.25236],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_8b25d5be6e3b60b3ea004d1cb414fc7a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7e94f0d7db5bcf0b9e23956b910d4a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9350931b22d40bcea484d3be1b99a67d = $(`<div id="html_9350931b22d40bcea484d3be1b99a67d" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Butha Buthe<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1722</div>`)[0];
+                popup_a7e94f0d7db5bcf0b9e23956b910d4a6.setContent(html_9350931b22d40bcea484d3be1b99a67d);
+            
+        
+
+        marker_06a814759d4bffffe23a98f911fa95b1.bindPopup(popup_a7e94f0d7db5bcf0b9e23956b910d4a6)
+        ;
+
+        
+    
+    
+            marker_06a814759d4bffffe23a98f911fa95b1.bindTooltip(
+                `<div>
+                     Butha Buthe
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_06a814759d4bffffe23a98f911fa95b1.setIcon(icon_8b25d5be6e3b60b3ea004d1cb414fc7a);
+            
+    
+            var marker_969537754807474d7e4b1298ea65acd2 = L.marker(
+                [-28.73618, 28.41477],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_2c3b998f86b613a04f01552f327d3248 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_69eabc54ccf57f2363b53971b552c379 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91d8eff9210bbc22a8e907236d2ce0aa = $(`<div id="html_91d8eff9210bbc22a8e907236d2ce0aa" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Khukhune<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1686</div>`)[0];
+                popup_69eabc54ccf57f2363b53971b552c379.setContent(html_91d8eff9210bbc22a8e907236d2ce0aa);
+            
+        
+
+        marker_969537754807474d7e4b1298ea65acd2.bindPopup(popup_69eabc54ccf57f2363b53971b552c379)
+        ;
+
+        
+    
+    
+            marker_969537754807474d7e4b1298ea65acd2.bindTooltip(
+                `<div>
+                     Khukhune
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_969537754807474d7e4b1298ea65acd2.setIcon(icon_2c3b998f86b613a04f01552f327d3248);
+            
+    
+            var marker_503da6b17663561e6197461183cfe6fb = L.marker(
+                [-28.76032, 28.28557],
+                {
+}
+            ).addTo(map_00d0d8f283fcb85fa9863bb2040dc75f);
+        
+    
+            var icon_ac59de0916b5f6dac155891983b8982b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd9231819344ae40c2f9b145e1bf36df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a69309a78428008995ab62c661029323 = $(`<div id="html_a69309a78428008995ab62c661029323" style="width: 100.0%; height: 100.0%;"><b>Village:</b> Ha Mopeli<br><b>District:</b> Butha Buthe<br><b>Raster Value:</b> 1785</div>`)[0];
+                popup_dd9231819344ae40c2f9b145e1bf36df.setContent(html_a69309a78428008995ab62c661029323);
+            
+        
+
+        marker_503da6b17663561e6197461183cfe6fb.bindPopup(popup_dd9231819344ae40c2f9b145e1bf36df)
+        ;
+
+        
+    
+    
+            marker_503da6b17663561e6197461183cfe6fb.bindTooltip(
+                `<div>
+                     Ha Mopeli
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_503da6b17663561e6197461183cfe6fb.setIcon(icon_ac59de0916b5f6dac155891983b8982b);
+            
+</script>
+</html>

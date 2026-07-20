@@ -1,0 +1,110 @@
+﻿ID,NAME,DISTRICT,TYPE,X_COORD,Y_COORD,RASTERVALU
+1,'Makong,Butha Buthe,Village,28.24419,-28.70883,1654
+6,Ha Mothetsa,Butha Buthe,Village,28.25229,-28.73063,1690
+7,Ha Majara,Butha Buthe,Village,28.25818,-28.73672,1674
+8,Maratlaneng,Butha Buthe,Village,28.26731,-28.71352,1617
+9,Morifi,Butha Buthe,Village,28.27111,-28.72854,1686
+10,Likhahleng,Butha Buthe,Village,28.30952,-28.70325,1648
+11,Ha Makuini,Butha Buthe,Village,28.32663,-28.72341,1630
+12,Ha  Tebetebe,Butha Buthe,Village,28.29602,-28.73729,1668
+13,Ha Talimo,Butha Buthe,Village,28.32454,-28.74432,1730
+14,Moaloseng,Butha Buthe,Village,28.35382,-28.73424,1743
+15,Ha Nqabeni,Butha Buthe,Village,28.26845,-28.75060,1712
+16,Ha Rasekila,Butha Buthe,Village,28.36865,-28.72360,1697
+17,Ha Tabolane,Butha Buthe,Village,28.37113,-28.73672,1777
+18,Ha Marakabei,Butha Buthe,Village,28.35553,-28.71181,1659
+19,Qalo,Butha Buthe,Town,28.34050,-28.70544,1675
+20,Liphakoeng,Butha Buthe,Village,28.37873,-28.69584,1775
+21,Boiketlo,Butha Buthe,Village,28.39546,-28.74660,1747
+22,Setlakalleng,Butha Buthe,Village,28.42988,-28.74851,1796
+23,Ha Lebesa,Butha Buthe,Village,28.40136,-28.70458,1750
+24,Ha Seboche,Butha Buthe,Village,28.41524,-28.69983,1729
+25,Ha Tumane,Butha Buthe,Village,28.43748,-28.69070,1718
+26,Ha Chaba,Butha Buthe,Village,28.43786,-28.71200,1835
+27,Makeneng,Butha Buthe,Village,28.45612,-28.70496,1879
+28,Ha Paramente,Butha Buthe,Village,28.39850,-28.68044,1783
+29,Thabong,Butha Buthe,Village,28.40136,-28.66713,1781
+30,Qholaqhoe,Butha Buthe,Village,28.41885,-28.66484,1867
+31,Sheeshe,Butha Buthe,Village,28.40288,-28.65192,1698
+32,Phoku(Ha Masilo),Butha Buthe,Village,28.41448,-28.63100,1697
+33,Ha Poosho,Butha Buthe,Village,28.45212,-28.64906,1850
+34,Ha Potjo,Butha Buthe,Village,28.46106,-28.64393,1906
+35,Makhunoane,Butha Buthe,Principal Village,28.45707,-28.62568,1736
+36,Ha 'Mantlobo,Butha Buthe,Village,28.47171,-28.67625,1824
+37,Ha Lekula,Butha Buthe,Village,28.49490,-28.61180,1776
+38,Bongalla,Butha Buthe,Village,28.49072,-28.70268,1843
+39,Ha Jane,Butha Buthe,Village,28.49719,-28.70934,1950
+40,Ha Lepatoa,Butha Buthe,Village,28.51703,-28.61797,1839
+41,Ha Mokotjela,Butha Buthe,Village,28.52166,-28.61190,1796
+42,Mechachachaneng,Butha Buthe,Village,28.57199,-28.61640,1884
+43,Masetleng,Butha Buthe,Village,28.57880,-28.62097,1982
+44,Ha Napo,Butha Buthe,Village,28.60521,-28.61508,1946
+45,Seqhobong,Butha Buthe,Village,28.58611,-28.62559,2171
+46,Saballa,Butha Buthe,Village,28.62053,-28.60178,1973
+47,Liqobong,Butha Buthe,Village,28.62487,-28.62173,2181
+48,Makoeteng,Butha Buthe,Village,28.62553,-28.64005,2240
+49,Likhahleng,Butha Buthe,Village,28.62698,-28.64841,2244
+50,Ha 'Makhoshane,Butha Buthe,Village,28.59220,-28.65527,2166
+51,Manoeleng,Butha Buthe,Village,28.58150,-28.64602,2093
+52,Ha Rats'ele,Butha Buthe,Village,28.55780,-28.68678,2197
+53,Thoteng,Butha Buthe,Village,28.54842,-28.68261,2065
+54,Ha Makhethe,Butha Buthe,Village,28.52576,-28.67191,1951
+55,Kopialla,Butha Buthe,Village,28.51633,-28.66499,1883
+56,Ha Mothae,Butha Buthe,Village,28.64992,-28.60454,2348
+57,Ha Sefako,Butha Buthe,Village,28.63313,-28.59156,1979
+58,Ha Nchoatla,Butha Buthe,Village,28.66503,-28.64182,2375
+59,Ha Katsi,Butha Buthe,Village,28.51414,-28.70500,1942
+60,Ha Mohau,Butha Buthe,Village,28.65899,-28.59311,2144
+61,Mafika-Lisiu,Butha Buthe,Village,28.65510,-28.57950,1993
+62,Ha Sekoati,Butha Buthe,Village,28.64627,-28.58431,2109
+63,Ha Molisana,Butha Buthe,Village,28.67778,-28.59166,2114
+64,Ha Hlakacha,Butha Buthe,Village,28.50715,-28.74652,1924
+143,Majakaneng,Butha Buthe,Village,28.27672,-28.75540,1717
+145,Tlokoeng,Butha Buthe,Village,28.27057,-28.78168,1756
+146,Matebeleng,Butha Buthe,Village,28.28551,-28.79078,1809
+147,Makanyaneng,Butha Buthe,Village,28.30873,-28.78123,1803
+148,Ha Lepekola,Butha Buthe,Village,28.31304,-28.77501,1803
+149,Ha Lishobana,Butha Buthe,Village,28.31785,-28.78989,1799
+150,Khilibithing,Butha Buthe,Village,28.33786,-28.79659,1816
+151,Ha Selomo,Butha Buthe,Village,28.34182,-28.77747,1730
+152,Ha Malofo,Butha Buthe,Village,28.33969,-28.76292,1702
+153,Ha Sebophe,Butha Buthe,Village,28.36124,-28.75860,1719
+154,Ha Katamelo,Butha Buthe,Village,28.38173,-28.76791,1871
+155,Ha Mohalenyane,Butha Buthe,Village,28.37637,-28.78577,1753
+156,Ha Mothunts'ane,Butha Buthe,Village,28.39673,-28.80469,1827
+157,Tamaseka,Butha Buthe,Village,28.41639,-28.82124,1878
+158,Mabaleteng,Butha Buthe,Village,28.43082,-28.83583,1933
+159,Makeneg,Butha Buthe,Village,28.46605,-28.83550,1991
+160,Lifefong,Butha Buthe,Village,28.43147,-28.79207,1876
+161,Boinyatso,Butha Buthe,Village,28.46605,-28.78420,1958
+162,'Muela,Butha Buthe,Village,28.46195,-28.77601,1861
+163,Moholeng,Butha Buthe,Village,28.48457,-28.79322,2025
+164,Ha Leboea,Butha Buthe,Village,28.35526,-28.80502,1798
+190,Phelantaba,Butha Buthe,Village,28.50529,-28.76214,1861
+191,Khamane,Butha Buthe,Village,28.53593,-28.76164,2114
+192,Sebataolong,Butha Buthe,Village,28.52204,-28.78728,2001
+193,Ha Ranthokoe,Butha Buthe,Village,28.61997,-28.82360,2487
+194,Boalathapo,Butha Buthe,Village,28.59398,-28.86313,2442
+195,Ha Moetsuoa,Butha Buthe,Village,28.57973,-28.90409,2455
+196,Liqalaneng,Butha Buthe,Village,28.54804,-28.90373,2356
+197,Maoela-oela,Butha Buthe,Village,28.54661,-28.93151,2311
+198,Ha Lehloara,Butha Buthe,Village,28.55950,-28.94871,2240
+199,Ha Lemphane,Butha Buthe,Village,28.57614,-28.95144,2409
+200,Lehlakaneng,Butha Buthe,Village,28.53876,-28.98084,2420
+201,Ha Tomo,Butha Buthe,Village,28.54674,-28.99725,2273
+202,Liqhobong,Butha Buthe,Village,28.59871,-28.98928,2438
+203,Ha Sekhobe,Butha Buthe,Village,28.59324,-28.96785,2448
+204,Patuoe,Butha Buthe,Village,28.60372,-28.95965,2388
+205,Thoteng,Butha Buthe,Village,28.61192,-28.94620,2287
+206,Liteleng,Butha Buthe,Village,28.62970,-28.93070,2371
+207,Setonong,Butha Buthe,Village,28.63700,-28.90928,2389
+376,Ha Rampai,Butha Buthe,Village,28.51750,-29.00771,2440
+377,Ha Mahlekefane,Butha Buthe,Village,28.52577,-29.03328,2272
+378,Ha Sello,Butha Buthe,Village,28.56915,-29.02376,2346
+379,Ha Lesaoana,Butha Buthe,Village,28.51549,-29.07115,2284
+381,Ha Lephats'oane,Butha Buthe,Village,28.60024,-29.00971,2388
+382,Ha Ralinko,Butha Buthe,Village,28.59623,-29.03629,2528
+383,Kao (Shishila),Butha Buthe,Village,28.63058,-29.02125,2513
+2058,Butha Buthe,Butha Buthe,District Town,28.25236,-28.76806,1722
+2059,Khukhune,Butha Buthe,Town,28.41477,-28.73618,1686
+2078,Ha Mopeli,Butha Buthe,Principal Village,28.28557,-28.76032,1785

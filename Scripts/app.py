@@ -12,20 +12,25 @@ st.title("🏔️ Lesotho Hyperlocal Climate Intelligence Platform")
 st.subheader("Pilot Study Area: Butha-Buthe District")
 st.markdown("---")
 
-# 2. Load the complete intelligence dataset directly from disk
+# 2. Smart Multi-Environment Data Loader (Handles both Laptop and Cloud automatically)
 def load_data():
-    return pd.read_csv("../Data/village_climate_intelligence.csv")
+    try:
+        return pd.read_csv("Data/village_climate_intelligence.csv")
+    except FileNotFoundError:
+        try:
+            return pd.read_csv("../Data/village_climate_intelligence.csv")
+        except FileNotFoundError:
+            try:
+                return pd.read_csv("Data/village_list.csv")
+            except FileNotFoundError:
+                return pd.read_csv("../Data/village_list.csv")
 
-try:
-    df = load_data()
-except FileNotFoundError:
-    df = pd.read_csv("../Data/village_list.csv")
+df = load_data()
 
 # --- SAFE FALLBACK DATA INJECTION ENGINE ---
-# If your backend scripts saved empty fields, this blocks the 'nan' error completely.
 if 'CURRENT_TEMP_C' not in df.columns or df['CURRENT_TEMP_C'].isna().all():
-    df['CURRENT_TEMP_C'] = 11.5       # Typical cool midday temp for July 2026
-    df['CURRENT_RAIN_MM'] = 0.0       # Dry winter baseline
+    df['CURRENT_TEMP_C'] = 11.5       
+    df['CURRENT_RAIN_MM'] = 0.0       
     df['CURRENT_CONDITION'] = "Clear Sky"
     df['AGRICULTURAL_ADVISORY'] = "STABLE/DRY CONDITIONS: Normal winter operational window. Safe for weeding and field clearing. Monitor soil moisture closely before attempting early field propagation."
 
@@ -42,7 +47,7 @@ else:
 selected_village = st.sidebar.selectbox("Select Your Village", sorted(filtered_df['NAME'].unique()))
 
 # Extract specific metrics for the user's chosen village
-village_data = df[df['NAME'] == selected_village].iloc[0]
+village_data = df[df['NAME'] == selected_village].iloc
 
 # Extra fallback safety checks per village row
 temp_val = village_data['CURRENT_TEMP_C']

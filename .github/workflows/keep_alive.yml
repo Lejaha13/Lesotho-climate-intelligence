@@ -13,6 +13,6 @@ jobs:
       - name: Ping the Streamlit app
         run: |
           echo "Pinging app to keep it awake..."
-          curl -sS -o /dev/null -w "HTTP status: %{http_code}\n" \
+          curl -sSL -o /dev/null -w "HTTP status: %{http_code}\n" \
             "https://lesotho-climate-intelligence-map.streamlit.app" \
             --max-time 60 --retry 3 --retry-delay 10

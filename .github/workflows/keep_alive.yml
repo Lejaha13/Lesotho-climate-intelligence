@@ -2,17 +2,24 @@ name: Keep Streamlit App Awake
 
 on:
   schedule:
-    # Runs every 3 days at 06:00 UTC. Cron syntax: min hour day month weekday
+    # Runs every 3 days at 06:00 UTC
     - cron: '0 6 */3 * *'
-  workflow_dispatch:  # lets you trigger it manually from the Actions tab to test
+  workflow_dispatch: # Allows manual testing from the Actions tab
 
 jobs:
-  ping:
+  keep-awake:
     runs-on: ubuntu-latest
     steps:
-      - name: Ping the Streamlit app
+      - name: Checkout repository code
+        uses: actions/checkout@v4
+
+      - name: Update activity timestamp
         run: |
-          echo "Pinging app to keep it awake..."
-          curl -sSL -o /dev/null -w "HTTP status: %{http_code}\n" \
-            "https://lesotho-climate-intelligence-map.streamlit.app" \
-            --max-time 60 --retry 3 --retry-delay 10
+          echo "Last ping activity: $(date)" > ping.txt
+
+      - name: Commit change to trigger Streamlit activity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ping.txt
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated ping to keep app awake" && git push)

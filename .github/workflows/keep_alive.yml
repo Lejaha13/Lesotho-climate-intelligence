@@ -1,0 +1,18 @@
+name: Keep Streamlit App Awake
+
+on:
+  schedule:
+    # Runs every 3 days at 06:00 UTC. Cron syntax: min hour day month weekday
+    - cron: '0 6 */3 * *'
+  workflow_dispatch:  # lets you trigger it manually from the Actions tab to test
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping the Streamlit app
+        run: |
+          echo "Pinging app to keep it awake..."
+          curl -sS -o /dev/null -w "HTTP status: %{http_code}\n" \
+            "https://lesotho-climate-intelligence-map.streamlit.app" \
+            --max-time 60 --retry 3 --retry-delay 10

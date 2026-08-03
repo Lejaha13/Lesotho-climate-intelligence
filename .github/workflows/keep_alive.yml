@@ -2,24 +2,15 @@ name: Keep Streamlit App Awake
 
 on:
   schedule:
-    # Runs every 3 days at 06:00 UTC
     - cron: '0 6 */3 * *'
-  workflow_dispatch: # Allows manual testing from the Actions tab
+  workflow_dispatch:
+
+# Add these lines to give the bot write access to push changes
+permissions:
+  contents: write
 
 jobs:
   keep-awake:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository code
-        uses: actions/checkout@v4
-
-      - name: Update activity timestamp
-        run: |
-          echo "Last ping activity: $(date)" > ping.txt
-
-      - name: Commit change to trigger Streamlit activity
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ping.txt
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated ping to keep app awake" && git push)
+...
